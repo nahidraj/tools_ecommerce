@@ -1,0 +1,194 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.dashboard {
+  padding: 30px;
+}
+
+.dashboard_top_header {
+  width: 100%;
+  background-color: $light;
+  padding: 15px 20px;
+  border-radius: 10px;
+
+  .dashboard_title {
+    h3 {
+      @include font(28px, 700);
+    }
+  }
+}
+
+.dashboard_main_widget {
+  margin-top: 24px;
+
+  .dashboard_left_menu {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $light;
+    border-radius: 10px;
+    padding: 20px 14px;
+
+    ul {
+      li {
+        margin-bottom: 4px;
+
+        a {
+          @include font(18px, 600);
+          color: $black;
+          padding: 10px 20px;
+          display: block;
+          width: 100%;
+          border-radius: 8px;
+          transition: all linear .2s;
+
+          &:hover {
+            background-color: $primary;
+            color: $white;
+          }
+        }
+      }
+
+      li.active {
+        a {
+          background-color: $primary;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.dashboard_main_content {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $light;
+  border-radius: 10px;
+  padding: 24px;
+
+  .content_widget_title {
+    margin-bottom: 14px;
+
+    h4 {
+      @include font(20px, 700);
+    }
+  }
+
+  .statistics_widget {
+    margin-bottom: 24px;
+
+    .statistics_widget_item {
+      border-radius: 10px;
+      border: 1px solid $border;
+      padding: 24px;
+      background-color: $white;
+
+      .icon {
+        width: 150px;
+        height: 150px;
+        background-color: $light;
+        border-radius: 50%;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+
+        i {
+          font-size: 44px;
+          color: $secondary;
+        }
+
+        .text {
+          margin-top: 10px;
+
+          h5 {
+            @include font(22px, 700);
+          }
+
+          h6 {
+            @include font(17px, 700);
+          }
+        }
+      }
+    }
+  }
+
+  .operation_widget {
+    margin-bottom: 24px;
+
+    .operation_widget_item {
+      padding: 20px;
+      background-color: $white;
+      border-radius: 10px;
+      border: 1px solid $border;
+
+      .icon {
+
+        i {
+          font-size: 44px;
+          color: $secondary;
+        }
+
+        .text {
+          margin-top: 10px;
+
+          h5 {
+            @include font(17px, 700);
+          }
+
+          h6 {
+            @include font(17px, 700);
+          }
+        }
+      }
+    }
+  }
+
+  .order_widget {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: $white;
+    border-radius: 10px;
+
+    .order_widget_title {
+      .order_title {
+        h4 {
+          @include font(20px, 700);
+        }
+      }
+
+      .view_all_btn {
+        background-color: $secondary;
+        color: $white;
+        padding: 4px 14px;
+        border-radius: 3px;
+        border: 0;
+      }
+    }
+
+    .order_widget_table {
+      margin-top: 14px;
+
+      .product_view {
+        background-color: $secondary;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 4px;
+        color: $white;
+        border: 0;
+        font-size: 14px;
+        transition: all linear .2s;
+
+        tbody {
+          td {
+            vertical-align: middle;
+          }
+        }
+
+        &:hover {
+          background-color: $black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+@import "../variables/colors";
+@import "../mixin/font";
+@import "../mixin/line-limit";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+span,
+small {
+  display: inline-block;
+}
+
+
+p {
+  line-height: 26px;
+}
+
+a p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
+}
+
+body {
+  overflow-x: hidden;
+  @include font(16px, 400);
+  color: $black;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+// rating part
+.rating {
+  i {
+    font-size: 12px;
+  }
+}
+
+// line limit part
+.line_limit_1 {
+  @include line_limit(1)
+}
+
+.line_limit_2 {
+  @include line_limit(2)
+}
+
+.line_limit_3 {
+  @include line_limit(3)
+}
+
+.line_limit_4 {
+  @include line_limit(4)
+}
+
+.line_limit_5 {
+  @include line_limit(5)
+}
+
+.line_limit_6 {
+  @include line_limit(6)
+}
+
+.line_limit_7 {
+  @include line_limit(7)
+}
+
+.line_limit_8 {
+  @include line_limit(8)
+}
+
+.line_limit_9 {
+  @include line_limit(9)
+}
+
+.line_limit_10 {
+  @include line_limit(10)
+}
+
+// common category widget
+.common_category_widget {
+  height: 100%;
+  border: 1px solid $border;
+  padding: 16px 10px;
+  border-radius: 10px;
+
+  .title {
+    padding-top: 20px;
+
+    h4 {
+      @include font(16px, 700);
+      color: $light-black;
+    }
+  }
+}
+
+// common product widget
+.common_product_widget {
+  border: 1px solid $border;
+  position: relative;
+
+  .discount {
+    background-color: $secondary;
+    @include font(10px, 700);
+    padding: 3px 8px;
+    border-radius: 1px;
+    color: $white;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+  }
+
+  .text {
+    background-color: $light;
+    border-top: 1px solid $border;
+    padding: 6px;
+
+    .product_title {
+      color: $black;
+      @include font(15px, 600);
+      padding-bottom: 4px;
+    }
+
+    .rating {
+      i {
+        color: $primary;
+      }
+    }
+
+    span {
+      @include font(14px, 600);
+    }
+
+    .product_action {
+      border: 1px solid $border;
+      border-radius: 40px;
+      padding: 0 14px;
+      margin-top: 5px;
+
+      .wishlist,
+      .cart,
+      .get_quote {
+        background-color: transparent;
+        border: 0;
+      }
+
+      .get_quote {
+        @include font(15px, 700);
+        color: $black;
+        border: 1px solid $border;
+        padding: 5px 8px;
+        border-radius: 5px;
+        margin: -1px 0;
+        transition: all linear .2s;
+
+        &:hover {
+          background-color: $secondary;
+          border-color: $secondary;
+          color: $white;
+        }
+      }
+
+      .wishlist,
+      .cart {
+        font-size: 17px;
+        color: $light-black;
+        transition: all linear .2s;
+
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+  }
+
+}
+
+// common brand widget
+.common_brand_widget {
+  border: 1px solid $primary;
+  border-radius: 5px;
+  overflow: hidden;
+}
