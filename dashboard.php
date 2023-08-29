@@ -1,54 +1,22 @@
 <?php
-include("inc/header.php");
+include("website-layout/header.php");
 ?>
 
 <section class="dashboard">
   <!-- this is dashboard topbar -->
-  <div class="dashboard_top_header">
-    <div class="row">
-      <div class="col-lg-4 align-self-center">
-        <div class="dashboard_logo">
-          <a href="dashboard.php">
-            <img src="images/logo.png" alt="logo">
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-4 align-self-center">
-        <div class="dashboard_title text-center">
-          <h3>Supper Admin Pannel!</h3>
-        </div>
-      </div>
-      <div class="col-lg-4 align-self-center">
-        <div class="profile_widget">
-
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php
+  include("dashboard-layout/header.php")
+  ?>
+  <!-- this is dashboard main -->
   <div class="dashboard_main_widget">
     <div class="row">
+      <!-- this is dashboard sidebar menu -->
       <div class="col-lg-2">
-        <!-- this is dashboard left menu -->
-        <div class="dashboard_left_menu">
-          <ul class="list-unstyled">
-            <!-- use this active class in li for active menu -->
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Order</a></li>
-            <li class="active"><a href="#">Product</a></li>
-            <li><a href="#">Category</a></li>
-            <li><a href="#">Customer</a></li>
-            <li><a href="#">Vendor</a></li>
-            <li><a href="#">Brand</a></li>
-            <li><a href="#">Page</a></li>
-            <li><a href="#">Slider</a></li>
-            <li><a href="#">Layout</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Payment</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Setting</a></li>
-          </ul>
-        </div>
+        <?php
+        include("dashboard-layout/sidebar.php")
+        ?>
       </div>
+      <!-- this is dashboard main content -->
       <div class="col-lg-10">
         <!-- this is dashboard content -->
         <div class="dashboard_main_content">
@@ -286,5 +254,5 @@ include("inc/header.php");
 </section>
 
 <?php
-include("inc/footer.php");
+include("website-layout/footer.php");
 ?>
