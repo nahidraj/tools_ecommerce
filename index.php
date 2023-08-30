@@ -1,5 +1,5 @@
 <?php
-include("inc/header.php");
+include("website-layout/header.php");
 ?>
 
 <!-- common component -->
@@ -166,5 +166,5 @@ include("inc/header.php");
 </div>
 
 <?php
-include("inc/footer.php");
+include("website-layout/footer.php");
 ?>
