@@ -319,4 +319,73 @@
     border: 0;
     @include font(17px, 600)
   }
+
+  .status_danger {
+    background-color: red;
+    color: $white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    @include font(13px, 700);
+  }
+
+  .status_success {
+    background-color: green;
+    color: $white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    @include font(13px, 700);
+  }
+
+  .childTableRow {
+
+    display: none;
+
+    td {
+      background-color: $light;
+    }
+  }
+
+  .form-check {
+
+    .form-check-input {
+      border-color: $light-black !important;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .form-check-label {
+      @include font(17px, 700);
+      cursor: pointer;
+      line-height: 30px;
+    }
+  }
+
+  .live_tracking {
+
+    .input-group-text {
+      background-color: transparent;
+      border: 0;
+      @include font(17px, 700)
+    }
+
+    input {
+      border-radius: 5px !important;
+      border-color: $border !important;
+    }
+  }
+
+  .update_status {
+    background-color: $secondary;
+    color: $white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    @include font(15px, 600);
+    border: 0;
+  }
+
+  .childTableRow table {
+    border: 2px solid #555;
+  }
+
 }

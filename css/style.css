@@ -482,5 +482,61 @@ body {
   font-size: 17px;
   font-weight: 600;
 }
+.order_table_widget .status_danger {
+  background-color: red;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.order_table_widget .status_success {
+  background-color: green;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.order_table_widget .childTableRow {
+  display: none;
+}
+.order_table_widget .childTableRow td {
+  background-color: #f2f2f2;
+}
+.order_table_widget .form-check .form-check-input {
+  border-color: #707176 !important;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.order_table_widget .form-check .form-check-label {
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 30px;
+}
+.order_table_widget .live_tracking .input-group-text {
+  background-color: transparent;
+  border: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+.order_table_widget .live_tracking input {
+  border-radius: 5px !important;
+  border-color: #c0c0c0 !important;
+}
+.order_table_widget .update_status {
+  background-color: #FF5624;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 0;
+}
+.order_table_widget .childTableRow table {
+  border: 2px solid #555;
+}
 
 /*# sourceMappingURL=style.css.map */
