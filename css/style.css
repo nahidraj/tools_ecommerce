@@ -323,6 +323,10 @@ body {
   border-radius: 8px;
   transition: all linear 0.2s;
 }
+.dashboard_main_widget .dashboard_left_menu ul li a i {
+  position: relative;
+  top: 5px;
+}
 .dashboard_main_widget .dashboard_left_menu ul li a:hover {
   background-color: #FCA835;
   color: #ffffff;

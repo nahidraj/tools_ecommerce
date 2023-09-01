@@ -4,7 +4,14 @@
       <!-- use this active class in li for active menu -->
       <li class="active"><a href="#">Dashboard</a></li>
       <li><a href="#">Order</a></li>
-      <li><a href="#">Product</a></li>
+      <li class="sub-menu">
+        <a href="#">Product <i class="fa-solid fa-angle-right float-end"></i></a>
+        <ul style="display: none;" class="list-unstyled ps-3">
+          <li><a href="">Aims & Objectives</a></li>
+          <li><a href="">BCS Historical</a></li>
+          <li><a href="">Activities</a></li>
+        </ul>
+      </li>
       <li><a href="#">Category</a></li>
       <li><a href="#">Customer</a></li>
       <li><a href="#">Vendor</a></li>
@@ -17,4 +24,5 @@
       <li><a href="#">Career</a></li>
       <li><a href="#">Setting</a></li>
     </ul>
+
   </div>

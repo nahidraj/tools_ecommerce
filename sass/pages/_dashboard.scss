@@ -121,6 +121,10 @@
           width: 100%;
           border-radius: 8px;
           transition: all linear .2s;
+          i{
+            position: relative;
+            top: 5px;
+          }
 
           &:hover {
             background-color: $primary;
