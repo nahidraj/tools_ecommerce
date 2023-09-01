@@ -322,10 +322,12 @@ body {
   width: 100%;
   border-radius: 8px;
   transition: all linear 0.2s;
+  cursor: pointer;
 }
 .dashboard_main_widget .dashboard_left_menu ul li a i {
   position: relative;
-  top: 5px;
+  top: 6px;
+  font-size: 16px;
 }
 .dashboard_main_widget .dashboard_left_menu ul li a:hover {
   background-color: #FCA835;
