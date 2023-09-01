@@ -24,7 +24,14 @@
       <li class="sub-menu">
         <a>Career <i class="fa-solid fa-angle-right float-end"></i></a>
         <ul style="display: none;" class="list-unstyled ps-3">
+          <li class="sub-menu">
+            <a>Aims & Objectives <i class="fa-solid fa-angle-right float-end"></i></a>
+            <ul style="display: none;" class="list-unstyled ps-3">
           <li><a href="">Aims & Objectives</a></li>
+          <li><a href="">BCS Historical</a></li>
+          <li><a href="">Activities</a></li>
+        </ul>
+          </li>
           <li><a href="">BCS Historical</a></li>
           <li><a href="">Activities</a></li>
         </ul>
