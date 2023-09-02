@@ -1,3 +1,7 @@
 @import "../variables/colors";
 @import "../mixin/font";
 
+nav{
+  background-color: $light;
+  padding: 34px 0;
+}

@@ -1,3 +1,103 @@
 @import "../variables/colors";
 @import "../mixin/font";
 
+
+header {
+  background-color: $primary;
+
+  ul {
+    li {
+      display: inline-block;
+      line-height: 35px;
+
+      a {
+        color: $black;
+        @include font(15px, 700);
+
+        i {
+          padding-right: 5px;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .left_info {
+    li {
+      padding-right: 30px;
+    }
+  }
+
+  .right_info {
+    li {
+      padding-left: 30px;
+    }
+  }
+
+  .top_menu {
+    line-height: 35px;
+    position: relative;
+    width: 90px;
+    margin: 0 auto;
+
+    .menu_name {
+      cursor: pointer;
+      &:hover{
+        
+      }
+    }
+
+    .semi_dropdown_menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 180px;
+      background-color: $primary;
+      border: 5px solid #d38820;
+      margin-top: -10px;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s ease 0s;
+
+      li {
+        display: block;
+      }
+
+      a {
+        @include font(14px, 700);
+        color: $white;
+        line-height: 24px;
+        padding: 5px 20px;
+        position: relative;
+        display: block !important;
+
+        &:hover {
+          background-color: #d38820;
+        }
+
+        i {
+          color: $white;
+          font-size: 14px;
+          width: 20px
+        }
+      }
+    }
+
+    span {
+      @include font(15px, 700);
+      padding: 0 2px;
+    }
+
+    i {
+      color: $white;
+      font-size: 14px;
+    }
+    &:hover{
+      .semi_dropdown_menu{
+        visibility: visible;
+        opacity: 1;
+        margin-top: 0;
+      }
+    }
+  }
+}

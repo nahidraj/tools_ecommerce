@@ -1,3 +1,108 @@
 @import "../variables/colors";
 @import "../mixin/font";
 
+footer {
+  padding-top: 24px;
+
+  .footer_bg {
+    background: $light;
+    padding: 60px 0;
+
+    .footer_about {
+      padding-right: 30px;
+
+      p {
+        @include font(15px, 600);
+        margin: 10px 0 35px 0;
+      }
+
+      ul {
+        li {
+          position: relative;
+          padding-left: 40px;
+          margin-top: 10px;
+          @include font(14px, 700);
+          color: $black;
+
+          a {
+            @include font(14px, 700);
+            color: $black;
+            line-height: 30px;
+            transition: all linear .2s;
+
+            &:hover {
+              color: $secondary;
+            }
+          }
+
+          i {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: $secondary;
+            width: 30px;
+            height: 30px;
+            border: 1px solid $black;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .footer_title {
+      @include font(26px, 700);
+      margin-bottom: 24px;
+    }
+
+    .footer_menus {
+      padding-left: 40px;
+    }
+
+    .common_links {
+      li {
+        a {
+          @include font(16px, 700);
+          color: $black;
+          margin-bottom: 8px;
+        }
+      }
+    }
+
+    .social_info{
+      margin-top: 40px;
+      a{
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+
+.footer_btm {
+  background-color: $primary;
+  padding: 14px 0;
+
+  ul {
+    li {
+      display: inline-block;
+      @include font(18px, 700);
+      color: $white;
+      padding-right: 24px;
+      margin-right: 18px;
+      position: relative;
+      &::before{
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "|";
+      }
+      &:last-child{
+        &::before{
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -33,7 +33,7 @@
         </ul>
           </li>
           <li><a href="">BCS Historical</a></li>
-          <li><a href="">Activities</a></li>
+          <li><a href="">Activities</a></li>  
         </ul>
       </li>
       <li><a href="#">Setting</a></li>

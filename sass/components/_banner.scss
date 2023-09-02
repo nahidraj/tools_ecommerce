@@ -1,0 +1,37 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.banner {
+  .banner_slider {
+    height: 350px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    li {
+      display: inline-block;
+      margin: 0 5px;
+
+      button {
+        font-size: 0;
+        width: 14px;
+        height: 14px;
+        background-color: $primary;
+        border-radius: 50%;
+        border: 0;
+      }
+    }
+    .slick-active{
+      button{
+        background-color: $secondary;
+      }
+    }
+  }
+}
