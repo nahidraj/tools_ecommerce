@@ -1,7 +1,86 @@
 @import "../variables/colors";
 @import "../mixin/font";
 
-nav{
+nav {
   background-color: $light;
-  padding: 34px 0;
+  padding: 15px 0;
+
+  .logo-part {
+    ul {
+      li {
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 10px;
+
+        i {
+          color: $secondary;
+          font-size: 20px;
+        }
+      }
+
+      .logo {
+        margin-right: 40px;
+      }
+    }
+  }
+
+  .search-part {
+    .input-groups {
+      input {
+        border: 1px solid $border;
+        height: 38px;
+        border-radius: 50px;
+        width: 100%;
+        padding: 0 20px;
+        @include font(14px, 500);
+      }
+
+      button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80px;
+        height: 38px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background-color: $secondary;
+        color: $white;
+        border: 0;
+        @include font(17px, 600);
+      }
+    }
+  }
+
+  .cart-part {
+    .items {
+      margin-left: 50px;
+
+      a {
+        @include font(15px, 600);
+        color: $black;
+
+        &:first-child {
+          margin-right: 15px;
+        }
+      }
+    }
+
+    .carts {
+      a {
+        width: 35px;
+        height: 35px;
+        border: 1px solid $secondary;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 35px;
+        color: $secondary;
+        margin-left: 5px;
+        transition: all linear .2s;
+        &:hover{
+          background-color: $secondary;
+          color: $white;
+        }
+      }
+    }
+  }
 }

@@ -4,7 +4,11 @@
 
 header {
   background-color: $primary;
-
+  z-index: 9999;
+  position: relative;
+.container{
+  max-width: 1500px;
+}
   ul {
     li {
       display: inline-block;

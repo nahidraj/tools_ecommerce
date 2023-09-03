@@ -140,6 +140,11 @@ body {
 
 header {
   background-color: #FCA835;
+  z-index: 9999;
+  position: relative;
+}
+header .container {
+  max-width: 1500px;
 }
 header ul li {
   display: inline-block;
@@ -218,7 +223,68 @@ header .top_menu:hover .semi_dropdown_menu {
 
 nav {
   background-color: #f2f2f2;
-  padding: 34px 0;
+  padding: 15px 0;
+}
+nav .logo-part ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 10px;
+}
+nav .logo-part ul li i {
+  color: #FF5624;
+  font-size: 20px;
+}
+nav .logo-part ul .logo {
+  margin-right: 40px;
+}
+nav .search-part .input-groups input {
+  border: 1px solid #c0c0c0;
+  height: 38px;
+  border-radius: 50px;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+nav .search-part .input-groups button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 38px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #FF5624;
+  color: #ffffff;
+  border: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+nav .cart-part .items {
+  margin-left: 50px;
+}
+nav .cart-part .items a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #121A1B;
+}
+nav .cart-part .items a:first-child {
+  margin-right: 15px;
+}
+nav .cart-part .carts a {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #FF5624;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  color: #FF5624;
+  margin-left: 5px;
+  transition: all linear 0.2s;
+}
+nav .cart-part .carts a:hover {
+  background-color: #FF5624;
+  color: #ffffff;
 }
 
 .banner .banner_slider {
