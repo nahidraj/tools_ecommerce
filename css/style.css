@@ -224,6 +224,105 @@ header .top_menu:hover .semi_dropdown_menu {
 nav {
   background-color: #f2f2f2;
   padding: 15px 0;
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+nav .container {
+  position: relative;
+}
+nav .mega-menu {
+  width: 98%;
+  height: 345px;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: calc(100% + 20px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #FCA835;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s;
+}
+nav .mega-menu .left-menu {
+  background-color: #FCA835;
+  padding: 14px;
+  width: 20%;
+  overflow-y: auto;
+}
+nav .mega-menu .left-menu h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+nav .mega-menu .left-menu ul li {
+  display: block;
+  background-color: #FF5624;
+  padding: 5px 6px;
+  margin: 3px 0px;
+}
+nav .mega-menu .left-menu ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+nav .mega-menu .left-menu ul li:hover {
+  background-color: #ffffff;
+}
+nav .mega-menu .left-menu ul li:hover a {
+  color: #FF5624 !important;
+}
+nav .mega-menu .left-menu ul li.active {
+  background-color: #ffffff;
+}
+nav .mega-menu .left-menu ul li.active a {
+  color: #FF5624 !important;
+}
+nav .mega-menu .right-menu {
+  width: 80%;
+}
+nav .mega-menu .right-menu .menu-list ul {
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+nav .mega-menu .right-menu .menu-list ul li {
+  margin: 0;
+  width: 15.5%;
+}
+nav .mega-menu .right-menu .menu-list ul li a {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #FF5624;
+  font-size: 18px;
+  font-weight: 600;
+  color: #121A1B;
+  border-radius: 4px;
+  padding: 7px 10px;
+  transition: 0.2s;
+}
+nav .mega-menu .right-menu .menu-list ul li a:hover {
+  background-color: #FF5624;
+  color: #ffffff;
+}
+nav .mega-menu .right-menu .menu-list .view-all {
+  padding: 0 16px;
+}
+nav .mega-menu .right-menu .menu-list .view-all a {
+  background-color: #FCA835;
+  color: #121A1B;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  border-radius: 20px;
+  padding: 1px 0;
+}
+nav .show-mega-menu {
+  visibility: visible;
+  opacity: 1;
 }
 nav .logo-part ul li {
   display: inline-block;

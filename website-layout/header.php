@@ -76,9 +76,63 @@
           <div class="logo-part">
             <ul class="list-unstyled">
               <li class="logo"><a href=""><img src="images/logo-1.png" alt="logo-1" width="105"></a></li>
-              <li class="category-menu"><i class="fa-brands fa-windows"></i> <span>Categories</span></li>
-              <li class="category-menu"><i class="fa-solid fa-chalkboard"></i> <span>Products</span></li>
+              <li class="category-menu">
+                <i class="fa-brands fa-windows"></i> <span>Categories</span>
+              </li>
+              <li class="product-menu"><i class="fa-solid fa-chalkboard"></i> <span>Products</span></li>
             </ul>
+            <div class="mega-menu d-flex">
+              <div class="left-menu">
+                <h4>Categories</h4>
+                <ul class="list-unstyled">
+                  <li class="menu_item active"><a href="">Temperature</a></li>
+                  <li class="menu_item"><a href="">Electrtical</a></li>
+                  <li class="menu_item"><a href="">Calibration</a></li>
+                  <li class="menu_item"><a href="">Temperature</a></li>
+                  <li class="menu_item"><a href="">Electrtical</a></li>
+                  <li class="menu_item"><a href="">Calibration</a></li>
+                </ul>
+              </div>
+              <div class="right-menu">
+                <div class="menu-list">
+                  <ul class="list-unstyled">
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Hand Tools</a></li>
+                    <li><a href="">Power Tools</a></li>
+                    <li><a href="">Accessories</a></li>
+                  </ul>
+                  <div class="view-all">
+                    <a href="">Visit All</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4 align-self-center">

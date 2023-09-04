@@ -4,6 +4,124 @@
 nav {
   background-color: $light;
   padding: 15px 0;
+  position: relative;
+  width: 100%;
+  z-index: 999;
+
+  .container {
+    position: relative;
+  }
+
+  .mega-menu {
+    width: 98%;
+    height: 345px;
+    background-color: $light;
+    position: absolute;
+    top: calc(100% - -20px);
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid $primary;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+
+    .left-menu {
+      background-color: $primary;
+      padding: 14px;
+      width: 20%;
+      overflow-y: auto;
+
+      h4 {
+        @include font(22px, 600);
+        margin-bottom: 5px;
+        color: $white;
+      }
+
+      ul {
+        li {
+          display: block;
+          background-color: $secondary;
+          padding: 5px 6px;
+          margin: 3px 0px;
+
+          a {
+            @include font(18px, 500);
+            color: $white;
+          }
+
+          &:hover {
+            background-color: $white;
+
+            a {
+              color: $secondary !important;
+            }
+          }
+        }
+
+        li.active {
+          background-color: $white;
+
+          a {
+            color: $secondary !important;
+          }
+        }
+      }
+    }
+
+    .right-menu {
+      width: 80%;
+
+      .menu-list {
+        ul {
+          padding: 16px;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 14px;
+
+
+          li {
+            margin: 0;
+            width: 15.5%;
+
+            a {
+              width: 100%;
+              text-align: center;
+              border: 1px solid $secondary;
+              @include font(18px, 600);
+              color: $black;
+              border-radius: 4px;
+              padding: 7px 10px;
+              transition: 0.2s;
+
+              &:hover {
+                background-color: $secondary;
+                color: $white;
+              }
+            }
+          }
+        }
+
+        .view-all {
+          padding: 0 16px;
+
+          a {
+            background-color: $primary;
+            color: $black;
+            @include font(13px, 700);
+            text-align: center;
+            display: block;
+            border-radius: 20px;
+            padding: 1px 0;
+          }
+        }
+      }
+    }
+  }
+
+  .show-mega-menu {
+    visibility: visible;
+    opacity: 1;
+  }
 
   .logo-part {
     ul {
@@ -76,7 +194,8 @@ nav {
         color: $secondary;
         margin-left: 5px;
         transition: all linear .2s;
-        &:hover{
+
+        &:hover {
           background-color: $secondary;
           color: $white;
         }
