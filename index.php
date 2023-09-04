@@ -2,8 +2,6 @@
 include("website-layout/header.php");
 ?>
 
-
-
 <!-- banner part start -->
 <section class="banner">
   <div class="banner_slider" style="background: url(images/banner.jpg);">

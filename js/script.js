@@ -6,28 +6,13 @@ $(function () {
     $(".mega-menu").toggleClass("show-mega-menu");
   })
 
-  const menuItems = document.querySelectorAll('.list-unstyled li');
-
-  // menuItems.forEach((item) => {
-  //   item.addEventListener('mouseenter', () => {
-  //     // Remove the 'active' class from all menu items
-  //     menuItems.forEach((menuItem) => {
-  //       menuItem.classList.remove('active');
-  //     });
-
-  //     // Add the 'active' class to the hovered menu item
-  //     item.classList.add('active');
-  //   });
-  // });
-
-
-  // Get all the choose--list elements
+  // Get all the menu_item elements
   const chooseListItems = document.querySelectorAll('.menu_item');
 
   // Add event listeners for hover
   chooseListItems.forEach(item => {
     item.addEventListener('mouseenter', () => {
-      // Remove active class from all choose--list elements
+      // Remove active class from all menu_item elements
       chooseListItems.forEach(listItem => {
         listItem.classList.remove('active');
       });

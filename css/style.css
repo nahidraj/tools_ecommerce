@@ -136,6 +136,7 @@ body {
   font-weight: 700;
   text-align: center;
   padding: 5px 0;
+  margin-bottom: 14px;
 }
 
 header {
@@ -422,13 +423,11 @@ nav .cart-part .carts a:hover {
   background-color: #f2f2f2;
   padding: 5px 5px;
   border-radius: 10px;
-  margin-top: 14px;
 }
 
 .common_widget_box_main_without_bg {
   padding: 5px 5px;
   border-radius: 10px;
-  margin-top: 14px;
 }
 
 .common_category_widget {
@@ -614,6 +613,52 @@ footer .footer_bg .social_info a {
 }
 .footer_btm ul li:last-child::before {
   display: none;
+}
+
+.bread-crumb {
+  background-color: #707176;
+  padding: 60px 0;
+}
+.bread-crumb h4 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.pagination ul li {
+  display: inline-block;
+}
+.pagination ul li.number-of a {
+  width: 38px;
+  height: 38px;
+  background-color: #FCA835;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 5px;
+  color: #ffffff;
+}
+.pagination ul li.left-arrow,
+.pagination ul .right-arrow {
+  background-color: #FCA835;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 90px;
+  height: 38px;
+  line-height: 38px;
+}
+.pagination ul li.left-arrow a,
+.pagination ul .right-arrow a {
+  color: #121A1B;
 }
 
 .dashboard {
@@ -938,6 +983,46 @@ footer .footer_bg .social_info a {
 }
 .order_table_widget .childTableRow table {
   border: 2px solid #555;
+}
+
+.subcategories-page {
+  padding-top: 30px;
+}
+
+.subcategories-item .img {
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.subcategories-item .img .overlay {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 86, 36, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+.subcategories-item .img .overlay h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.subcategories-item .text {
+  margin-top: 14px;
+}
+.subcategories-item .text h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.subcategories-item:hover .overlay {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
