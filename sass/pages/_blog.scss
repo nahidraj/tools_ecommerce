@@ -1,0 +1,137 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.blog-page {
+  .blog-navbar {
+    background-color: $primary;
+
+    .menu {
+      ul {
+        li {
+          display: inline-block;
+
+          a {
+            @include font(19px, 700);
+            color: $black;
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+
+    .option {
+      .search {
+        @include font(20px, 600);
+        color: $white;
+        background-color: $secondary;
+        padding: 4px 20px;
+        border-radius: 20px;
+        border: 0;
+      }
+
+      .user {
+        margin-left: 24px;
+        color: $secondary;
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background-color: $white;
+        text-align: center;
+        line-height: 33px;
+        font-size: 20px;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          width: 40px;
+          height: 40px;
+          border: 1px solid $white;
+          border-radius: 50%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          content: "";
+        }
+      }
+    }
+  }
+
+  .blog-top-items {
+    .image {
+      height: 380px;
+      background-color: red;
+
+      .overlay {
+        bottom: 0;
+        left: 0;
+        padding: 24px;
+
+        a {
+          @include font(22px, 700);
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .blog-title {
+    h4 {
+      @include font(20px, 700);
+    }
+  }
+
+  .blogs-item {
+    border: 1px solid $border;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .text {
+      padding: 14px;
+
+      p {
+        @include font(14px, 400);
+        line-height: 22px;
+      }
+
+      a {
+        @include font(20px, 600);
+        color: $black;
+        line-height: 26px;
+        transition: all linear .2s;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+
+      ul {
+        li {
+          display: inline-block;
+          position: relative;
+
+          img {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+
+          span {
+            @include font(13px, 400);
+          }
+        }
+
+        li.user {
+          padding-left: 34px;
+          margin-bottom: 10px;
+        }
+
+        li.date {
+          padding-left: 32px;
+        }
+      }
+    }
+  }
+}

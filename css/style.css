@@ -1237,4 +1237,113 @@ footer .footer_bg .social_info a {
   font-weight: 500;
 }
 
+.blog-page .blog-navbar {
+  background-color: #FCA835;
+}
+.blog-page .blog-navbar .menu ul li {
+  display: inline-block;
+}
+.blog-page .blog-navbar .menu ul li a {
+  font-size: 19px;
+  font-weight: 700;
+  color: #121A1B;
+  margin-right: 30px;
+}
+.blog-page .blog-navbar .option .search {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #FF5624;
+  padding: 4px 20px;
+  border-radius: 20px;
+  border: 0;
+}
+.blog-page .blog-navbar .option .user {
+  margin-left: 24px;
+  color: #FF5624;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 33px;
+  font-size: 20px;
+  position: relative;
+}
+.blog-page .blog-navbar .option .user::before {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+}
+.blog-page .blog-top-items .image {
+  height: 380px;
+  background-color: red;
+}
+.blog-page .blog-top-items .image .overlay {
+  bottom: 0;
+  left: 0;
+  padding: 24px;
+}
+.blog-page .blog-top-items .image .overlay a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.blog-page .blog-title h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.blog-page .blogs-item {
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.blog-page .blogs-item .text {
+  padding: 14px;
+}
+.blog-page .blogs-item .text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.blog-page .blogs-item .text a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #121A1B;
+  line-height: 26px;
+  transition: all linear 0.2s;
+}
+.blog-page .blogs-item .text a:hover {
+  color: #FCA835;
+}
+.blog-page .blogs-item .text ul li {
+  display: inline-block;
+  position: relative;
+}
+.blog-page .blogs-item .text ul li img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.blog-page .blogs-item .text ul li span {
+  font-size: 13px;
+  font-weight: 400;
+}
+.blog-page .blogs-item .text ul li.user {
+  padding-left: 34px;
+  margin-bottom: 10px;
+}
+.blog-page .blogs-item .text ul li.date {
+  padding-left: 32px;
+}
+
 /*# sourceMappingURL=style.css.map */
