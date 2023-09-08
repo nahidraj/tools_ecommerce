@@ -1346,4 +1346,126 @@ footer .footer_bg .social_info a {
   padding-left: 32px;
 }
 
+.customer_panel_widget .short_summery {
+  background-color: #FCA835;
+  padding: 20px;
+  border-radius: 10px;
+}
+.customer_panel_widget .short_summery .summery_item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.customer_panel_widget .short_summery .summery_item h4 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.customer_panel_widget .short_summery .summery_item p {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.customer_panel_widget .continue_shopping {
+  margin-top: 24px;
+}
+.customer_panel_widget .continue_shopping a {
+  background-color: #FCA835;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+.customer_panel_widget .offer_banner img {
+  border-radius: 10px;
+}
+.customer_panel_widget .customer_all_orders .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.customer_panel_widget .customer_all_wishlist .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.customer_panel_widget .customer_order_widget {
+  padding: 100px 0;
+}
+.customer_panel_widget .customer_order_widget .tracking_form {
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+.customer_panel_widget .customer_order_widget .tracking_form h4 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.customer_panel_widget .customer_order_widget .tracking_form .input-groups {
+  margin: 20px 0;
+}
+.customer_panel_widget .customer_order_widget .tracking_form .input-groups input {
+  width: 100%;
+  border-radius: 40px;
+  border: 2px solid #FCA835;
+  height: 60px;
+  padding: 0 24px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #121A1B;
+}
+.customer_panel_widget .customer_order_widget .tracking_form button {
+  background-color: #FCA835;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 12px 40px;
+  border: 0;
+}
+.customer_panel_widget .customer_order_tracking_status tbody td {
+  padding: 80px 8px !important;
+}
+.customer_panel_widget .customer_profile .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.customer_panel_widget .customer_profile .customer_profile_widget .profile_image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #FCA835;
+  overflow: hidden;
+}
+.customer_panel_widget .customer_profile .customer_profile_widget .profile_image img {
+  border-radius: 50%;
+}
+.customer_panel_widget .customer_profile .customer_profile_widget .password {
+  padding-left: 6px;
+  max-width: 500px;
+}
+.customer_panel_widget .customer_profile .customer_profile_widget .password h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.customer_panel_widget .customer_profile .customer_profile_widget .password .input-groups input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #121A1B;
+  padding: 0 20px;
+}
+.customer_panel_widget .customer_profile .customer_profile_widget .save_btn {
+  text-align: center;
+  margin-top: 24px;
+}
+.customer_panel_widget .customer_profile .customer_profile_widget .save_btn button {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 0;
+  background-color: #FCA835;
+  padding: 8px 20px;
+  width: 100%;
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */

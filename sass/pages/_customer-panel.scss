@@ -1,0 +1,161 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.customer_panel_widget {
+  .short_summery {
+    background-color: $primary;
+    padding: 20px;
+    border-radius: 10px;
+
+    .summery_item {
+      background-color: $white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+
+      h4 {
+        @include font(34px, 700);
+      }
+
+      p {
+        @include font(22px, 600);
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .continue_shopping {
+    margin-top: 24px;
+
+    a {
+      background-color: $primary;
+      @include font(22px, 600);
+      color: $white;
+      border-radius: 40px;
+      padding: 10px 20px;
+    }
+  }
+
+  .offer_banner {
+
+    img {
+      border-radius: 10px;
+    }
+  }
+
+  .customer_all_orders {
+    .title {
+      h4 {
+        @include font(24px, 700);
+      }
+    }
+  }
+
+  .customer_all_wishlist {
+    .title {
+      h4 {
+        @include font(24px, 700);
+      }
+    }
+  }
+
+  .customer_order_widget {
+    padding: 100px 0;
+
+    .tracking_form {
+      border: 1px solid #c0c0c0;
+      border-radius: 10px;
+      padding: 50px 30px;
+
+      h4 {
+        @include font(26px, 700);
+      }
+
+      .input-groups {
+        margin: 20px 0;
+
+        input {
+          width: 100%;
+          border-radius: 40px;
+          border: 2px solid $primary;
+          height: 60px;
+          padding: 0 24px;
+          @include font(18px, 500);
+          color: $black;
+        }
+      }
+
+      button {
+        background-color: $primary;
+        @include font(18px, 600);
+        border-radius: 40px;
+        padding: 12px 40px;
+        border: 0;
+      }
+    }
+  }
+
+  .customer_order_tracking_status {
+    tbody {
+      td {
+        padding: 80px 8px !important;
+      }
+    }
+  }
+
+  .customer_profile {
+    .title {
+      h4 {
+        @include font(24px, 700);
+      }
+    }
+
+    .customer_profile_widget {
+      .profile_image {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 2px solid $primary;
+        overflow: hidden;
+
+        img {
+          border-radius: 50%;
+        }
+      }
+
+      .password {
+        padding-left: 6px;
+        max-width: 500px;
+
+        h4 {
+          @include font(18px, 700);
+          margin-bottom: 14px;
+        }
+
+        .input-groups {
+          input {
+            width: 100%;
+            height: 40px;
+            border: 1px solid $black;
+            padding: 0 20px;
+          }
+        }
+      }
+
+      .save_btn {
+        text-align: center;
+        margin-top: 24px;
+
+        button {
+          @include font(18px, 600);
+          background-color: transparent;
+          border: 0;
+          background-color: $primary;
+          padding: 8px 20px;
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+}
