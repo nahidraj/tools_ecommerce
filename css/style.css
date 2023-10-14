@@ -1685,17 +1685,6 @@ footer .footer_bg .social_info a {
 .checkout_page .form_main .input_groups input:focus {
   border-color: #121A1B;
 }
-.checkout_page .form_main .input_groups textarea {
-  width: 100%;
-  border: 1px solid #121A1B;
-  border-radius: 5px;
-  height: 100px;
-  padding: 14px;
-  transition: all 0.3s ease;
-}
-.checkout_page .form_main .input_groups textarea:focus {
-  border-color: #121A1B;
-}
 .checkout_page .button {
   text-align: center;
   margin-top: 50px;
@@ -1712,6 +1701,205 @@ footer .footer_bg .social_info a {
 .checkout_page .button button:hover {
   background-color: #121A1B;
   color: #ffffff;
+}
+
+.customer_registration {
+  padding: 100px 0;
+}
+.customer_registration .title {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.customer_registration .title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.customer_registration .form_main {
+  background-color: #f2f2f2;
+  margin-top: 20px;
+  padding: 20px 150px 30px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.customer_registration .form_main .user_icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 46px;
+  color: #F47627;
+  background-color: #E6E7E9;
+  border: 2px solid #ffffff;
+  margin: 0 auto 40px;
+}
+.customer_registration .form_main .input_groups {
+  margin-bottom: 20px;
+}
+.customer_registration .form_main .input_groups label {
+  width: 200px;
+  flex: 0 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+.customer_registration .form_main .input_groups span {
+  width: 60px;
+  font-size: 32px;
+}
+.customer_registration .form_main .input_groups input {
+  width: 100%;
+  border: 1px solid #121A1B;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 14px;
+  transition: all 0.3s ease;
+}
+.customer_registration .form_main .input_groups input:focus {
+  border-color: #121A1B;
+}
+.customer_registration .form_main .form-check .form-check-input {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: 2px solid #A8A9AD;
+}
+.customer_registration .form_main .form-check .form-check-input:checked {
+  border-color: #F47627;
+  background-color: #F47627;
+}
+.customer_registration .form_main .form-check .form-check-label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.customer_registration .form_main .button {
+  text-align: center;
+  margin-top: 50px;
+}
+.customer_registration .form_main .button button {
+  background-color: #FCA835;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 14px 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: 0;
+  transition: all 0.3s ease;
+  border: 2px solid #ffffff;
+}
+.customer_registration .form_main .button button:hover {
+  background-color: #121A1B;
+  color: #ffffff;
+}
+
+.customer_login {
+  padding: 100px 0;
+}
+.customer_login .title {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.customer_login .title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.customer_login .title h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.customer_login .form_main {
+  background-color: #f2f2f2;
+  margin-top: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.customer_login .form_main .form_box {
+  padding: 20px 120px 30px;
+}
+.customer_login .form_main .user_icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 46px;
+  color: #F47627;
+  background-color: #E6E7E9;
+  border: 2px solid #ffffff;
+  margin: 0 auto 40px;
+}
+.customer_login .form_main .input_groups {
+  margin-bottom: 20px;
+}
+.customer_login .form_main .input_groups input {
+  width: 100%;
+  border: 1px solid #121A1B;
+  border-radius: 5px;
+  height: 45px;
+  padding: 0 24px;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+}
+.customer_login .form_main .input_groups input:focus {
+  border-color: #121A1B;
+}
+.customer_login .form_main .button {
+  text-align: center;
+  margin-top: 30px;
+}
+.customer_login .form_main .button button {
+  background-color: #FCA835;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 6px 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: 0;
+  transition: all 0.3s ease;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+}
+.customer_login .form_main .button button:hover {
+  background-color: #121A1B;
+  color: #ffffff;
+}
+.customer_login .fotter_part {
+  padding: 0 30px;
+  padding-bottom: 30px;
+}
+.customer_login .fotter_part .btn_item {
+  width: 48%;
+}
+.customer_login .fotter_part .action_btn {
+  background-color: #FCA835;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 50px;
+  border: 0;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  text-align: center;
+  display: block;
+}
+.customer_login .fotter_part .action_btn:hover {
+  background-color: #121A1B;
+  color: #ffffff;
+}
+.customer_login .fotter_part .create {
+  background-color: #F15929;
+}
+.customer_login .fotter_part .forgot {
+  background-color: #57585A;
 }
 
 /*# sourceMappingURL=style.css.map */
