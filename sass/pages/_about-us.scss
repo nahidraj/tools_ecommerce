@@ -1,0 +1,54 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.about_us_page {
+  padding: 100px 0;
+
+  .text {
+    p+p {
+      margin-top: 30px;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .subscribe_newsletter {
+    width: 450px;
+    margin: 0 auto;
+
+    .input_groups {
+      input {
+        width: 100%;
+        height: 55px;
+        border-radius: 50px;
+        border: 1px solid $border;
+        padding: 0 20px;
+        transition: all 0.3s ease;
+
+        &:focus {
+          border-color: $black;
+        }
+      }
+
+      button {
+        width: 100%;
+        padding: 12px 30px;
+        background-color: $primary;
+        border-radius: 50px;
+        margin-top: 24px;
+        border: 0;
+        @include font(22px, 600);
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+}

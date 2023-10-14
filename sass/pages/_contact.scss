@@ -1,0 +1,65 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.contact_form {
+  padding: 100px 0px;
+
+  .title {
+    margin-bottom: 40px;
+
+    h3 {
+      @include font(32px, 700);
+      margin-top: 12px;
+    }
+  }
+
+  .form_main {
+    .input_groups {
+      margin-bottom: 24px;
+      label {
+        width: 200px;
+        flex: 0 0 auto;
+        @include font(24px, 500);
+      }
+
+      input {
+        width: 100%;
+        border: 1px solid $border;
+        border-radius: 5px;
+        height: 50px;
+        padding: 0 14px;
+        transition: all 0.3s ease;
+        &:focus{
+          border-color: $black;
+        }
+      }
+      textarea{
+        width: 100%;
+        border: 1px solid $border;
+        border-radius: 5px;
+        height: 100px;
+        padding: 14px;
+        transition: all 0.3s ease;
+        &:focus{
+          border-color: $black;
+        }
+      }
+    }
+    .button{
+      text-align: center;
+      button{
+        background-color: $primary;
+        @include font(22px, 600);
+        padding: 12px 50px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        border: 0;
+        transition: all 0.3s ease;
+        &:hover{
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+}

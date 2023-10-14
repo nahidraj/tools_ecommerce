@@ -330,6 +330,9 @@ nav .logo-part ul li {
   cursor: pointer;
   margin-right: 10px;
 }
+nav .logo-part ul li a {
+  color: #121A1B;
+}
 nav .logo-part ul li i {
   color: #FF5624;
   font-size: 20px;
@@ -1466,6 +1469,108 @@ footer .footer_bg .social_info a {
   padding: 8px 20px;
   width: 100%;
   display: block;
+}
+
+.contact_form {
+  padding: 100px 0px;
+}
+.contact_form .title {
+  margin-bottom: 40px;
+}
+.contact_form .title h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.contact_form .form_main .input_groups {
+  margin-bottom: 24px;
+}
+.contact_form .form_main .input_groups label {
+  width: 200px;
+  flex: 0 0 auto;
+  font-size: 24px;
+  font-weight: 500;
+}
+.contact_form .form_main .input_groups input {
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  height: 50px;
+  padding: 0 14px;
+  transition: all 0.3s ease;
+}
+.contact_form .form_main .input_groups input:focus {
+  border-color: #121A1B;
+}
+.contact_form .form_main .input_groups textarea {
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  height: 100px;
+  padding: 14px;
+  transition: all 0.3s ease;
+}
+.contact_form .form_main .input_groups textarea:focus {
+  border-color: #121A1B;
+}
+.contact_form .form_main .button {
+  text-align: center;
+}
+.contact_form .form_main .button button {
+  background-color: #FCA835;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 12px 50px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 0;
+  transition: all 0.3s ease;
+}
+.contact_form .form_main .button button:hover {
+  background-color: #121A1B;
+  color: #ffffff;
+}
+
+.about_us_page {
+  padding: 100px 0;
+}
+.about_us_page .text p + p {
+  margin-top: 30px;
+}
+.about_us_page .text p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+}
+.about_us_page .subscribe_newsletter {
+  width: 450px;
+  margin: 0 auto;
+}
+.about_us_page .subscribe_newsletter .input_groups input {
+  width: 100%;
+  height: 55px;
+  border-radius: 50px;
+  border: 1px solid #c0c0c0;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+}
+.about_us_page .subscribe_newsletter .input_groups input:focus {
+  border-color: #121A1B;
+}
+.about_us_page .subscribe_newsletter .input_groups button {
+  width: 100%;
+  padding: 12px 30px;
+  background-color: #FCA835;
+  border-radius: 50px;
+  margin-top: 24px;
+  border: 0;
+  font-size: 22px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.about_us_page .subscribe_newsletter .input_groups button:hover {
+  background-color: #121A1B;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

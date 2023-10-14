@@ -79,7 +79,12 @@
               <li class="category-menu">
                 <i class="fa-brands fa-windows"></i> <span>Categories</span>
               </li>
-              <li class="product-menu"><i class="fa-solid fa-chalkboard"></i> <span>Products</span></li>
+              <li class="product-menu">
+                <a href="">
+                  <i class="fa-solid fa-chalkboard"></i>
+                  <span>Products</span>
+                </a>
+              </li>
             </ul>
             <div class="mega-menu d-flex">
               <div class="left-menu">
