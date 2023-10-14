@@ -1,0 +1,72 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.checkout_page {
+  padding: 40px 0;
+
+  .title {
+    margin-bottom: 40px;
+
+    h3 {
+      @include font(32px, 700);
+      margin-top: 12px;
+    }
+  }
+
+  .form_main {
+    .input_groups {
+      margin-bottom: 20px;
+
+      label {
+        width: 500px;
+        flex: 0 0 auto;
+        @include font(20px, 600);
+      }
+
+      input {
+        width: 100%;
+        border: 1px solid $black;
+        border-radius: 5px;
+        height: 40px;
+        padding: 0 14px;
+        transition: all 0.3s ease;
+
+        &:focus {
+          border-color: $black;
+        }
+      }
+
+      textarea {
+        width: 100%;
+        border: 1px solid $black;
+        border-radius: 5px;
+        height: 100px;
+        padding: 14px;
+        transition: all 0.3s ease;
+
+        &:focus {
+          border-color: $black;
+        }
+      }
+    }
+  }
+
+  .button {
+    text-align: center;
+    margin-top: 50px;
+
+    button {
+      background-color: $primary;
+      @include font(20px, 600);
+      padding: 14px 50px;
+      border-radius: 50px;
+      border: 0;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+}

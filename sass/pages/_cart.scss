@@ -1,0 +1,99 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.cart_page {
+  padding: 40px 0;
+
+  .cart_table {
+    table {
+      thead {
+        th {
+          background-color: $primary !important;
+          @include font(20px, 600);
+        }
+      }
+
+      td {
+        @include font(18px, 600);
+        vertical-align: middle;
+
+        a {
+          color: $black;
+          transition: all 0.3s ease;
+
+          &:hover {
+            color: $primary;
+          }
+        }
+
+        .close {
+          width: 40px;
+          height: 30px;
+          background-color: #BE1D2C;
+          text-align: center;
+          line-height: 35px;
+          border: 0;
+          color: $white;
+        }
+      }
+
+      .quantity {
+        input {
+          width: 40px;
+          background-color: #57585A;
+          @include font(18px, 600);
+          color: $white;
+          border: 0;
+          height: 35px;
+          text-align: center;
+        }
+
+        .quantity_btn {
+          width: 40px;
+          height: 35px;
+          background-color: #BE1D2C;
+          text-align: center;
+          line-height: 35px;
+          border: 0;
+          color: $white;
+        }
+
+        .increment {
+          background-color: #00A54F;
+        }
+      }
+    }
+
+    .table> :not(caption)>*>* {
+      padding: .5rem 2rem;
+    }
+  }
+
+  .continue_text {
+    text-align: center;
+    margin-top: 40px;
+
+    h4 {
+      background-color: $light;
+      padding: 12px 40px;
+      @include font(24px, 600);
+    }
+
+    .next_shopping {
+      background-color: $primary;
+      padding: 12px 30px;
+      border-radius: 50px;
+      color: $black;
+      width: 180px;
+      text-align: center;
+      @include font(18px, 600);
+      margin-top: 14px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+}

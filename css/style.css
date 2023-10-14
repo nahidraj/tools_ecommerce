@@ -1573,4 +1573,145 @@ footer .footer_bg .social_info a {
   color: #ffffff;
 }
 
+.cart_page {
+  padding: 40px 0;
+}
+.cart_page .cart_table table thead th {
+  background-color: #FCA835 !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cart_page .cart_table table td {
+  font-size: 18px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+.cart_page .cart_table table td a {
+  color: #121A1B;
+  transition: all 0.3s ease;
+}
+.cart_page .cart_table table td a:hover {
+  color: #FCA835;
+}
+.cart_page .cart_table table td .close {
+  width: 40px;
+  height: 30px;
+  background-color: #BE1D2C;
+  text-align: center;
+  line-height: 35px;
+  border: 0;
+  color: #ffffff;
+}
+.cart_page .cart_table table .quantity input {
+  width: 40px;
+  background-color: #57585A;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border: 0;
+  height: 35px;
+  text-align: center;
+}
+.cart_page .cart_table table .quantity .quantity_btn {
+  width: 40px;
+  height: 35px;
+  background-color: #BE1D2C;
+  text-align: center;
+  line-height: 35px;
+  border: 0;
+  color: #ffffff;
+}
+.cart_page .cart_table table .quantity .increment {
+  background-color: #00A54F;
+}
+.cart_page .cart_table .table > :not(caption) > * > * {
+  padding: 0.5rem 2rem;
+}
+.cart_page .continue_text {
+  text-align: center;
+  margin-top: 40px;
+}
+.cart_page .continue_text h4 {
+  background-color: #f2f2f2;
+  padding: 12px 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.cart_page .continue_text .next_shopping {
+  background-color: #FCA835;
+  padding: 12px 30px;
+  border-radius: 50px;
+  color: #121A1B;
+  width: 180px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 14px;
+  transition: all 0.3s ease;
+}
+.cart_page .continue_text .next_shopping:hover {
+  background-color: #121A1B;
+  color: #ffffff;
+}
+
+.checkout_page {
+  padding: 40px 0;
+}
+.checkout_page .title {
+  margin-bottom: 40px;
+}
+.checkout_page .title h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.checkout_page .form_main .input_groups {
+  margin-bottom: 20px;
+}
+.checkout_page .form_main .input_groups label {
+  width: 500px;
+  flex: 0 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+.checkout_page .form_main .input_groups input {
+  width: 100%;
+  border: 1px solid #121A1B;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 14px;
+  transition: all 0.3s ease;
+}
+.checkout_page .form_main .input_groups input:focus {
+  border-color: #121A1B;
+}
+.checkout_page .form_main .input_groups textarea {
+  width: 100%;
+  border: 1px solid #121A1B;
+  border-radius: 5px;
+  height: 100px;
+  padding: 14px;
+  transition: all 0.3s ease;
+}
+.checkout_page .form_main .input_groups textarea:focus {
+  border-color: #121A1B;
+}
+.checkout_page .button {
+  text-align: center;
+  margin-top: 50px;
+}
+.checkout_page .button button {
+  background-color: #FCA835;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 14px 50px;
+  border-radius: 50px;
+  border: 0;
+  transition: all 0.3s ease;
+}
+.checkout_page .button button:hover {
+  background-color: #121A1B;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=style.css.map */
