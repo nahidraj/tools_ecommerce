@@ -1703,29 +1703,29 @@ footer .footer_bg .social_info a {
   color: #ffffff;
 }
 
-.customer_registration {
+.merchate_registration {
   padding: 100px 0;
 }
-.customer_registration .title {
+.merchate_registration .title {
   text-align: center;
   background-color: #f2f2f2;
   padding: 20px 0;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
 }
-.customer_registration .title h3 {
+.merchate_registration .title h3 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
 }
-.customer_registration .form_main {
+.merchate_registration .form_main {
   background-color: #f2f2f2;
   margin-top: 20px;
   padding: 20px 150px 30px;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
 }
-.customer_registration .form_main .user_icon {
+.merchate_registration .form_main .user_icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -1737,20 +1737,20 @@ footer .footer_bg .social_info a {
   border: 2px solid #ffffff;
   margin: 0 auto 40px;
 }
-.customer_registration .form_main .input_groups {
+.merchate_registration .form_main .input_groups {
   margin-bottom: 20px;
 }
-.customer_registration .form_main .input_groups label {
+.merchate_registration .form_main .input_groups label {
   width: 200px;
   flex: 0 0 auto;
   font-size: 20px;
   font-weight: 600;
 }
-.customer_registration .form_main .input_groups span {
+.merchate_registration .form_main .input_groups span {
   width: 60px;
   font-size: 32px;
 }
-.customer_registration .form_main .input_groups input {
+.merchate_registration .form_main .input_groups input {
   width: 100%;
   border: 1px solid #121A1B;
   border-radius: 5px;
@@ -1758,29 +1758,29 @@ footer .footer_bg .social_info a {
   padding: 0 14px;
   transition: all 0.3s ease;
 }
-.customer_registration .form_main .input_groups input:focus {
+.merchate_registration .form_main .input_groups input:focus {
   border-color: #121A1B;
 }
-.customer_registration .form_main .form-check .form-check-input {
+.merchate_registration .form_main .form-check .form-check-input {
   width: 24px;
   height: 24px;
   background-color: transparent;
   border: 2px solid #A8A9AD;
 }
-.customer_registration .form_main .form-check .form-check-input:checked {
+.merchate_registration .form_main .form-check .form-check-input:checked {
   border-color: #F47627;
   background-color: #F47627;
 }
-.customer_registration .form_main .form-check .form-check-label {
+.merchate_registration .form_main .form-check .form-check-label {
   font-size: 18px;
   font-weight: 600;
   margin-left: 20px;
 }
-.customer_registration .form_main .button {
+.merchate_registration .form_main .button {
   text-align: center;
   margin-top: 50px;
 }
-.customer_registration .form_main .button button {
+.merchate_registration .form_main .button button {
   background-color: #FCA835;
   font-size: 20px;
   font-weight: 600;
@@ -1791,7 +1791,7 @@ footer .footer_bg .social_info a {
   transition: all 0.3s ease;
   border: 2px solid #ffffff;
 }
-.customer_registration .form_main .button button:hover {
+.merchate_registration .form_main .button button:hover {
   background-color: #121A1B;
   color: #ffffff;
 }
@@ -1900,6 +1900,99 @@ footer .footer_bg .social_info a {
 }
 .customer_login .fotter_part .forgot {
   background-color: #57585A;
+}
+
+.customer_registration {
+  padding: 100px 0;
+}
+.customer_registration .title {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.customer_registration .title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.customer_registration .form_main {
+  background-color: #f2f2f2;
+  margin-top: 20px;
+  padding: 20px 150px 30px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.customer_registration .form_main .user_icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 46px;
+  color: #F47627;
+  background-color: #E6E7E9;
+  border: 2px solid #ffffff;
+  margin: 0 auto 40px;
+}
+.customer_registration .form_main .input_groups {
+  margin-bottom: 20px;
+}
+.customer_registration .form_main .input_groups label {
+  width: 200px;
+  flex: 0 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+.customer_registration .form_main .input_groups span {
+  width: 60px;
+  font-size: 32px;
+}
+.customer_registration .form_main .input_groups input {
+  width: 100%;
+  border: 1px solid #121A1B;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 14px;
+  transition: all 0.3s ease;
+}
+.customer_registration .form_main .input_groups input:focus {
+  border-color: #121A1B;
+}
+.customer_registration .form_main .form-check .form-check-input {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: 2px solid #A8A9AD;
+}
+.customer_registration .form_main .form-check .form-check-input:checked {
+  border-color: #F47627;
+  background-color: #F47627;
+}
+.customer_registration .form_main .form-check .form-check-label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.customer_registration .form_main .button {
+  text-align: center;
+  margin-top: 50px;
+}
+.customer_registration .form_main .button button {
+  background-color: #FCA835;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 14px 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: 0;
+  transition: all 0.3s ease;
+  border: 2px solid #ffffff;
+}
+.customer_registration .form_main .button button:hover {
+  background-color: #121A1B;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 @import "../variables/colors";
 @import "../mixin/font";
 
-.merchate_registration {
+.customer_registration {
   padding: 100px 0;
 
   .title {
@@ -77,8 +77,7 @@
         border-color: #F47627;
         background-color: #F47627;
       }
-
-      .form-check-label {
+      .form-check-label{
         @include font(18px, 600);
         margin-left: 20px;
       }
