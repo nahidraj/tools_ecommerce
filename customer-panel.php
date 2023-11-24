@@ -14,6 +14,7 @@ include("website-layout/header.php");
             <!-- use this active class in li for active menu -->
             <li class="active"><a href="#">Dashboard</a></li>
             <li><a href="#">My Order</a></li>
+            <li><a href="#">Add New</a></li>
             <li><a href="#">Wishlist</a></li>
             <li><a href="#">Track Order</a></li>
             <li><a href="#">Profile</a></li>
@@ -177,6 +178,215 @@ include("website-layout/header.php");
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+
+          <!-- add new product part start -->
+          <div class="add_a_new_product mt-4">
+            <div class="title">
+              <h4>Add a new product</h4>
+            </div>
+            <div class="add_product_widget mt-3">
+              <div class="add_product_form">
+                <form action="#">
+                  <div class="row gx-5">
+                    <div class="col-lg-12">
+                      <div class="input_groups">
+                        <label>Title </label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="input_groups">
+                        <label>URL </label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="input_groups">
+                        <label>Meta Title </label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="input_groups">
+                        <label>Regular Price </label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="input_groups">
+                        <label>Special Price </label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="input_groups">
+                        <label>Discount</label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="input_groups">
+                        <label>Brand</label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="input_groups">
+                        <label>Category</label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="input_groups">
+                        <label>Subcategory</label>
+                        <input type="text">
+                      </div>
+                    </div>
+                    <div class="col-lg-12 mt-3">
+                      <div class="row gx-5">
+                        <div class="col-lg-4">
+                          <div class="input_groups">
+                            <div class="product_feature_image">
+                              <div class="image">
+                                <figure>
+                                  <img src="images/profile.jpg" alt="profile" class="img-fluid w-100">
+                                  <div class="file_upload">
+                                    <input type="file" class="d-none" id="feature_image">
+                                    <label for="feature_image">Upload</label>
+                                  </div>
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="row gx-5">
+                            <div class="col-lg-4">
+                              <div class="input_groups">
+                                <label>Image ALT Text</label>
+                                <input type="text">
+                              </div>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="input_groups">
+                                <label>Stocks</label>
+                                <div class="stocks">
+                                  <div class="mydict">
+                                    <div>
+                                      <label>
+                                        <input type="radio" name="radio" checked="">
+                                        <span>Yes</span>
+                                      </label>
+                                      <label>
+                                        <input type="radio" name="radio">
+                                        <span>No</span>
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                              <div class="row">
+                                <div class="col-lg-3">
+                                  <div class="input_groups">
+                                    <div class="product_feature_image">
+                                      <div class="image">
+                                        <figure>
+                                          <img src="images/profile.jpg" alt="profile" class="img-fluid w-100">
+                                          <div class="file_upload">
+                                            <input type="file" class="d-none" id="feature_image">
+                                            <label for="feature_image">Upload</label>
+                                          </div>
+                                        </figure>
+                                      </div>
+                                      <div class="input_groups">
+                                        <input type="text" placeholder="Image ALT text">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3">
+                                  <div class="input_groups">
+                                    <div class="product_feature_image">
+                                      <div class="image">
+                                        <figure>
+                                          <img src="images/profile.jpg" alt="profile" class="img-fluid w-100">
+                                          <div class="file_upload">
+                                            <input type="file" class="d-none" id="feature_image">
+                                            <label for="feature_image">Upload</label>
+                                          </div>
+                                        </figure>
+                                      </div>
+                                      <div class="input_groups">
+                                        <input type="text" placeholder="Image ALT text">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3">
+                                  <div class="input_groups">
+                                    <div class="product_feature_image">
+                                      <div class="image">
+                                        <figure>
+                                          <img src="images/profile.jpg" alt="profile" class="img-fluid w-100">
+                                          <div class="file_upload">
+                                            <input type="file" class="d-none" id="feature_image">
+                                            <label for="feature_image">Upload</label>
+                                          </div>
+                                        </figure>
+                                      </div>
+                                      <div class="input_groups">
+                                        <input type="text" placeholder="Image ALT text">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3">
+                                  <div class="input_groups">
+                                    <div class="product_feature_image">
+                                      <div class="image">
+                                        <figure>
+                                          <img src="images/profile.jpg" alt="profile" class="img-fluid w-100">
+                                          <div class="file_upload">
+                                            <input type="file" class="d-none" id="feature_image">
+                                            <label for="feature_image">Upload</label>
+                                          </div>
+                                        </figure>
+                                      </div>
+                                      <div class="input_groups">
+                                        <input type="text" placeholder="Image ALT text">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="input_groups">
+                        <label>Meta Description </label>
+                        <textarea rows="6"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="input_groups">
+                        <label>Meta keywords </label>
+                        <textarea rows="1"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <button type="button" class="submit_btn"> Publish Product
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
 

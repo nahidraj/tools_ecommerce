@@ -1,0 +1,110 @@
+@import "../variables/colors";
+@import "../mixin/font";
+
+.checkout_title {
+  @include font(30px, 700);
+}
+
+.checkout_title_bg {
+  background-color: #f2f2f2;
+}
+
+.checkout_latest_page {
+  padding-bottom: 40px;
+
+  .checkout_latest_form {
+    margin-top: 40px;
+
+    .input_groups {
+      margin-bottom: 10px;
+
+      label {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      input {
+        width: 100%;
+        height: 50px;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 0 20px;
+      }
+
+      textarea {
+        width: 100%;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+      }
+    }
+
+    .add_delivery_address {
+      background-color: $primary;
+      border: 0;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+  }
+
+  .billing_address {
+    background-color: #FFF5F4;
+    padding: 24px;
+    height: 100%;
+  }
+}
+
+.billing_address {
+  .bill_information {
+    td {
+      background-color: transparent;
+      vertical-align: middle;
+      @include font(16px, 600);
+
+      input {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #ddd;
+        padding: 0 20px;
+      }
+
+      tfoot {
+        border-top: 1px solid #ddd !important;
+        padding: 20px 0;
+      }
+    }
+
+    .table-borderless> :not(:first-child) {
+      border-top-width: 1px !important;
+    }
+
+    .payment_option {
+      margin-top: 40px;
+
+      .title {
+        @include font(20px, 700);
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.submit_checkout_btn {
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: $primary;
+    color: $black;
+    @include font(17px, 700);
+    border: 0;
+    transition: all linear .2s;
+
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
