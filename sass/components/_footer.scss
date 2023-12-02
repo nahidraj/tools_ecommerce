@@ -5,7 +5,7 @@ footer {
   padding-top: 24px;
 
   .footer_bg {
-    background: $light;
+    background: #f2f2f2;
     padding: 60px 0;
 
     .footer_about {
@@ -70,10 +70,36 @@ footer {
       }
     }
 
-    .social_info{
+    .social_info {
       margin-top: 40px;
-      a{
-        margin-right: 5px;
+
+      .social {
+        a {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 30px;
+          font-size: 13px;
+          color: $white;
+          margin-right: 3px;
+
+          &:first-child {
+            background-color: #3b5998;
+          }
+
+          &:nth-child(2) {
+            background-color: #00acee;
+          }
+
+          &:nth-child(3) {
+            background-color: #0072b1;
+          }
+
+          &:nth-child(4) {
+            background-color: #B63794;
+          }
+        }
       }
     }
   }
@@ -92,14 +118,16 @@ footer {
       padding-right: 24px;
       margin-right: 18px;
       position: relative;
-      &::before{
+
+      &::before {
         position: absolute;
         top: 0;
         right: 0;
         content: "|";
       }
-      &:last-child{
-        &::before{
+
+      &:last-child {
+        &::before {
           display: none;
         }
       }

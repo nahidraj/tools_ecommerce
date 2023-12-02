@@ -41,7 +41,7 @@ $(function () {
     speed: 500,
     slidesToShow: 1,
     dots: true,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',

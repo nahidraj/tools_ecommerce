@@ -330,7 +330,7 @@ include("website-layout/header.php");
     </div>
     <!-- all brands -->
     <div class="common_widget_box_main_without_bg">
-      <div class="row g-3">
+      <div class="row gy-3 gx-1">
         <div class="col-lg-2">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
@@ -684,7 +684,7 @@ include("website-layout/header.php");
     </div>
     <!-- all brands -->
     <div class="common_widget_box_main_without_bg">
-      <div class="row g-3">
+      <div class="row gx-1 gy-3">
         <div class="col-lg-2">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>

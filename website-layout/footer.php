@@ -64,12 +64,12 @@
       <div class="social_info">
         <div class="row">
           <div class="col-lg-6 align-self-center">
-            <div class="icon">
-              <a href=""><img src="images/fb.png" alt="fb"></a>
-              <a href=""><img src="images/in.png" alt="in"></a>
-              <a href=""><img src="images/li.png" alt="li"></a>
-              <a href=""><img src="images/tw.png" alt="tw"></a>
-            </div>
+            <span class="social">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </span>
           </div>
           <div class="col-lg-6 align-self-center">
             <div class="payment text-end">

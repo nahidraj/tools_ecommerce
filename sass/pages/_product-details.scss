@@ -5,7 +5,7 @@
   padding-top: 24px;
 
   .product-widget {
-    border: 1px solid $border;
+    // border: 1px solid $border;
   }
 
   .product-images {
@@ -74,25 +74,25 @@
     padding: 20px 0;
     position: relative;
 
-    &::before {
-      position: absolute;
-      top: 0;
-      left: -12px;
-      width: 1px;
-      height: 100%;
-      background-color: $border;
-      content: "";
-    }
+    // &::before {
+    //   position: absolute;
+    //   top: 0;
+    //   left: -12px;
+    //   width: 1px;
+    //   height: 100%;
+    //   background-color: $border;
+    //   content: "";
+    // }
 
-    &::after {
-      position: absolute;
-      top: 0;
-      right: -12px;
-      width: 1px;
-      height: 100%;
-      background-color: $border;
-      content: "";
-    }
+    // &::after {
+    //   position: absolute;
+    //   top: 0;
+    //   right: -12px;
+    //   width: 1px;
+    //   height: 100%;
+    //   background-color: $border;
+    //   content: "";
+    // }
 
     table {
       tr {
@@ -152,13 +152,13 @@
     }
 
     .product_action {
-      border: 1px solid $black;
+      border: 1px solid $border;
       border-radius: 40px;
       padding: 0 14px;
       margin-top: 5px;
-      width: 260px;
-      background-color: $primary;
-      margin: 20px auto 0;
+      width: 220px;
+      background-color: $light;
+      margin: 20px 0 0;
 
       .wishlist,
       .cart,
@@ -168,21 +168,29 @@
       }
 
       .get_quote {
-        @include font(19px, 700);
+        @include font(17px, 700);
         color: $black;
-        border: 1px solid $black;
-        padding: 15px 20px;
+        border: 1px solid $border;
+        padding: 13px 14px;
         border-radius: 5px;
         margin: -1px 0;
         transition: all linear .2s;
       }
+      .get_quote:hover {
+        background-color: $primary;
+        color: $white;
+        border-color: $primary;
+      }
 
       .wishlist,
       .cart {
-        font-size: 22px;
+        font-size: 20px;
         color: $black;
         transition: all linear .2s;
         padding: 0 5px;
+        &:hover{
+          color: $primary;
+        }
       }
     }
   }

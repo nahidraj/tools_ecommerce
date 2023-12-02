@@ -8,7 +8,7 @@
 
 .dashboard_top_header {
   width: 100%;
-  background-color: $light;
+  background-color: #f2f2f2;
   padding: 15px 20px;
   border-radius: 10px;
   position: relative;
@@ -76,6 +76,7 @@
       height: 40px;
       border-radius: 50%;
       margin-left: auto;
+      flex: 0 0 auto;
 
       img {
         height: 100%;
