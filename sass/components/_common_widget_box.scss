@@ -7,7 +7,7 @@
 }
 
 .common_widget_box_main_with_bg {
-  background-color: $light;
+  // background-color: $light;
   padding: 5px 5px;
   border-radius: 10px;
 }
@@ -17,6 +17,38 @@
   border-radius: 10px;
 }
 
+.brands_slider {
+  .common_brand_widget {
+    margin: 0 2px;
+  }
+}
+
+.brands_slider .icon {
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: $primary;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: $white;
+  cursor: pointer;
+  position: absolute;
+  z-index: 9;
+  top: 18px;
+
+  &:hover {
+    background-color: #000;
+  }
+}
+
+.brands_slider .icon.left {
+  left: -30px;
+}
+
+.brands_slider .icon.right {
+  right: -30px;
+}
 
 // common category widget
 .common_category_widget {
@@ -24,6 +56,12 @@
   border: 1px solid $border;
   padding: 16px 10px;
   border-radius: 10px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: $primary;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  }
 
   .title {
     padding-top: 20px;
@@ -48,9 +86,19 @@
 .common_product_widget {
   border: 1px solid $border;
   position: relative;
+  height: 100%;
+  transition: all 0.3s ease;
+  &:hover{
+    border-color: var(--primary);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .image {
+    min-height: 209px;
+  }
 
   .discount {
-    background-color: $secondary;
+    background-color: $primary;
     @include font(10px, 700);
     padding: 3px 8px;
     border-radius: 1px;
@@ -69,11 +117,12 @@
       color: $black;
       @include font(15px, 600);
       padding-bottom: 4px;
+      min-height: 49px;
     }
 
     .rating {
       i {
-        color: $primary;
+        color: $secondary;
       }
     }
 
@@ -83,7 +132,7 @@
 
     .product_action {
       border: 1px solid $border;
-      border-radius: 40px;
+      border-radius: 0px;
       padding: 0 14px;
       margin-top: 5px;
 
@@ -99,13 +148,13 @@
         color: $black;
         border: 1px solid $border;
         padding: 5px 8px;
-        border-radius: 5px;
+        border-radius: 0px;
         margin: -1px 0;
         transition: all linear .2s;
 
         &:hover {
-          background-color: $secondary;
-          border-color: $secondary;
+          background-color: $primary;
+          border-color: $primary;
           color: $white;
         }
       }
@@ -117,7 +166,7 @@
         transition: all linear .2s;
 
         &:hover {
-          color: $secondary;
+          color: $primary;
         }
       }
     }
@@ -130,4 +179,13 @@
   border: 1px solid $primary;
   border-radius: 5px;
   overflow: hidden;
+  img{
+    filter: grayscale(1);
+    transition: all linear .2s;
+  }
+  &:hover{
+    img{
+      filter: grayscale(0);
+    }
+  }
 }

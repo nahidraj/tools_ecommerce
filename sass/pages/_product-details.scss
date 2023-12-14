@@ -13,7 +13,7 @@
     padding: 0 20px 20px;
 
     .slick-dots {
-      margin-top: 60px;
+      margin-top: 46px;
       margin-left: -5px;
       margin-right: -5px;
       display: flex;
@@ -93,6 +93,10 @@
     //   background-color: $border;
     //   content: "";
     // }
+    .table> :not(caption)>*>* {
+      padding:0rem .5rem;
+      padding-bottom: 2rem !important;
+    }
 
     table {
       tr {
@@ -152,12 +156,13 @@
     }
 
     .product_action {
-      border: 1px solid $border;
-      border-radius: 40px;
+      // border: 1px solid $border;
+      border-radius: 0px;
       padding: 0 14px;
       margin-top: 5px;
-      width: 220px;
-      background-color: $light;
+      width: 250px;
+      // background-color: $light;
+      background-color: $primary;
       margin: 20px 0 0;
 
       .wishlist,
@@ -169,27 +174,29 @@
 
       .get_quote {
         @include font(17px, 700);
-        color: $black;
+        color: $white;
         border: 1px solid $border;
         padding: 13px 14px;
         border-radius: 5px;
         margin: -1px 0;
         transition: all linear .2s;
       }
-      .get_quote:hover {
-        background-color: $primary;
-        color: $white;
-        border-color: $primary;
-      }
+
+      // .get_quote:hover {
+      //   background-color: $primary;
+      //   color: $white;
+      //   border-color: $primary;
+      // }
 
       .wishlist,
       .cart {
         font-size: 20px;
-        color: $black;
+        color: $white;
         transition: all linear .2s;
-        padding: 0 5px;
-        &:hover{
-          color: $primary;
+        padding: 0 10px;
+
+        &:hover {
+          color: $white;
         }
       }
     }
@@ -243,22 +250,24 @@
       .nav-link {
         color: $black;
         @include font(20px, 600);
-        padding: 4px 0;
-        margin-right: 32px;
-        border-bottom: 2px solid transparent;
+        padding: 8px 20px;
+        // border-bottom: 2px solid transparent;
+        background-color: transparent;
         border-radius: 0;
       }
 
       .nav-pills .nav-link.active {
         color: $black;
-        background-color: transparent;
-        border-color: $primary;
+        background-color: $primary;
+        color: $white;
       }
     }
-    .information{
+
+    .information {
       margin-top: 30px;
-      .details{
-        p{
+
+      .details {
+        p {
           margin-bottom: 24px;
           @include font(18px, 500);
         }

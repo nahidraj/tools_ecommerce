@@ -46,22 +46,54 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+    // responsive: [{
+    //     breakpoint: 992,
+    //     settings: {
+    //       slidesToShow: 3,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       slidesToShow: 2,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 501,
+    //     settings: {
+    //       slidesToShow: 1,
+    //     },
+    //   },
+    // ],
+  });
+
+  // Brands slider 
+  $(".brands_slider").slick({
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6,
+    dots: false,
+    autoplay: true,
+    arrows: true,
+    slidesToScroll: 1,
+    prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
+    nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
     responsive: [{
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
         breakpoint: 992,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 576,
         settings: {
           slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 501,
-        settings: {
-          slidesToShow: 1,
         },
       },
     ],

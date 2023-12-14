@@ -13,8 +13,8 @@ include("website-layout/header.php");
 <section class="products-page">
   <div class="container">
     <div class="all-products mt-4">
-      <div class="row g-3">
-        <div class="col-lg-2">
+      <div class="row g-1">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -41,7 +41,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -68,7 +68,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -95,7 +95,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -122,7 +122,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -149,7 +149,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -176,7 +176,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -203,7 +203,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -230,7 +230,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -257,7 +257,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -284,7 +284,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">
@@ -311,7 +311,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <div class="image">
               <a href="" class="d-block w-100">

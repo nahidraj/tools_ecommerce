@@ -90,6 +90,7 @@
       button {
         background-color: $primary;
         @include font(20px, 600);
+        color: $white;
         padding: 14px 50px;
         width: 200px;
         border-radius: 50px;

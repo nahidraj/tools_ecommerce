@@ -14,7 +14,7 @@ nav {
 
   .mega-menu {
     width: 98%;
-    height: 345px;
+    min-height: 345px;
     background-color: $light;
     position: absolute;
     top: calc(100% - -20px);
@@ -40,7 +40,7 @@ nav {
       ul {
         li {
           display: block;
-          background-color: $secondary;
+          background-color: $primary;
           padding: 5px 6px;
           margin: 3px 0px;
 
@@ -62,7 +62,7 @@ nav {
           background-color: $white;
 
           a {
-            color: $secondary !important;
+            color: $primary !important;
           }
         }
       }
@@ -70,6 +70,7 @@ nav {
 
     .right-menu {
       width: 80%;
+      padding-bottom: 15px;
 
       .menu-list {
         ul {
@@ -81,12 +82,12 @@ nav {
 
           li {
             margin: 0;
-            width: 15.5%;
+            // width: 15.5%;
 
             a {
               width: 100%;
               text-align: center;
-              border: 1px solid $secondary;
+              border: 1px solid $primary;
               @include font(18px, 600);
               color: $black;
               border-radius: 4px;
@@ -94,7 +95,7 @@ nav {
               transition: 0.2s;
 
               &:hover {
-                background-color: $secondary;
+                background-color: $primary;
                 color: $white;
               }
             }
@@ -106,7 +107,7 @@ nav {
 
           a {
             background-color: $primary;
-            color: $black;
+            color: $white;
             @include font(13px, 700);
             text-align: center;
             display: block;
@@ -135,7 +136,7 @@ nav {
         }
 
         i {
-          color: $secondary;
+          color: $primary;
           font-size: 20px;
         }
       }
@@ -151,7 +152,7 @@ nav {
       input {
         border: 1px solid $border;
         height: 38px;
-        border-radius: 50px;
+        border-radius: 12px;
         width: 100%;
         padding: 0 20px;
         @include font(14px, 500);
@@ -163,9 +164,9 @@ nav {
         right: 0;
         width: 80px;
         height: 38px;
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-        background-color: $secondary;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        background-color: $primary;
         color: $white;
         border: 0;
         @include font(17px, 600);
@@ -191,16 +192,16 @@ nav {
       a {
         width: 35px;
         height: 35px;
-        border: 1px solid $secondary;
+        border: 1px solid $primary;
         border-radius: 50%;
         text-align: center;
         line-height: 35px;
-        color: $secondary;
+        color: $primary;
         margin-left: 5px;
         transition: all linear .2s;
 
         &:hover {
-          background-color: $secondary;
+          background-color: $primary;
           color: $white;
         }
       }

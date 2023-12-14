@@ -44,6 +44,7 @@
 
     .add_delivery_address {
       background-color: $primary;
+      color: $white;
       border: 0;
       padding: 5px 10px;
       border-radius: 3px;
@@ -97,7 +98,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     background-color: $primary;
-    color: $black;
+    color: $white;
     @include font(17px, 700);
     border: 0;
     transition: all linear .2s;

@@ -4,7 +4,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-6">
           <div class="footer_about">
             <div class="logo">
               <img src="images/logo-1.png" alt="logo-1" width="120">
@@ -27,7 +27,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-sm-6">
           <div class="footer_menus">
             <h4 class="footer_title">Menu</h4>
             <ul class="list-unstyled common_links">
@@ -39,7 +39,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-sm-6">
           <div class="footer_supprt">
             <h4 class="footer_title">Support & Deal</h4>
             <ul class="list-unstyled common_links">
@@ -48,7 +48,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-6">
           <div class="usefull_links">
             <h4 class="footer_title">Usefull Links</h4>
             <ul class="list-unstyled common_links">
@@ -63,16 +63,16 @@
 
       <div class="social_info">
         <div class="row">
-          <div class="col-lg-6 align-self-center">
-            <span class="social">
+          <div class="col-lg-6 col-md-4 align-self-center">
+            <span class="social d-flex justify-content-center justify-content-md-start">
               <a href=""><i class="fa-brands fa-facebook-f"></i></a>
               <a href=""><i class="fa-brands fa-twitter"></i></a>
               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
               <a href=""><i class="fa-brands fa-instagram"></i></a>
             </span>
           </div>
-          <div class="col-lg-6 align-self-center">
-            <div class="payment text-end">
+          <div class="col-lg-6 col-md-8 align-self-center">
+            <div class="payment text-md-end mt-3 mt-md-0">
               <img src="images/payment.png" alt="payment">
             </div>
           </div>
@@ -85,7 +85,7 @@
 <!-- footer part start -->
 <section class="footer_btm">
   <div class="container">
-    <ul class="list-unstyled">
+    <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
       <li>Copyright@2023</li>
       <li>Tools Bangladesh</li>
     </ul>

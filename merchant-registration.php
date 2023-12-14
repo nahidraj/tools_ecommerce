@@ -60,7 +60,7 @@ include("website-layout/header.php");
     </div>
   </div>
 </section>
-<!-- customer registration panel end -->
+<!-- customer registration panel end ch-->
 
 
 <?php

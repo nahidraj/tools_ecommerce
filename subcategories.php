@@ -14,7 +14,7 @@ include("website-layout/header.php");
   <div class="container">
     <div class="all-subcategories">
       <div class="row g-4">
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="subcategories-item">
             <a href="" class="d-block w-100">
               <div class="img position-relative">
@@ -29,7 +29,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="subcategories-item">
             <a href="" class="d-block w-100">
               <div class="img position-relative">
@@ -44,7 +44,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="subcategories-item">
             <a href="" class="d-block w-100">
               <div class="img position-relative">
@@ -59,7 +59,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="subcategories-item">
             <a href="" class="d-block w-100">
               <div class="img position-relative">
@@ -74,7 +74,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="subcategories-item">
             <a href="" class="d-block w-100">
               <div class="img position-relative">
@@ -89,7 +89,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="subcategories-item">
             <a href="" class="d-block w-100">
               <div class="img position-relative">
@@ -104,7 +104,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="subcategories-item">
             <a href="" class="d-block w-100">
               <div class="img position-relative">
@@ -119,7 +119,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="subcategories-item">
             <a href="" class="d-block w-100">
               <div class="img position-relative">

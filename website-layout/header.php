@@ -23,7 +23,7 @@
   <header>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-12 col-sm">
           <div class="left_info">
             <ul class="list-unstyled">
               <li><a href=""><i class="fa-regular fa-circle-user"></i> Merchant</a></li>
@@ -31,9 +31,9 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-2 col-12 col-sm">
           <div class="middle_info">
-            <div class="top_menu text-center">
+            <div class="top_menu text-end text-sm-center">
               <div class="menu_name">
                 <i class="fa-brands fa-windows"></i>
                 <span>Menu</span>
@@ -55,8 +55,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="right_info text-end">
+        <div class="col-lg-4 col-md-4 col-12 col-sm">
+          <div class="right_info text-start text-sm-end">
             <ul class="list-unstyled">
               <li><a href=""><i class="fa-solid fa-circle-info"></i> About Us</a></li>
               <li><a href=""><i class="fa-regular fa-envelope"></i> Contact Us</a></li>
@@ -72,19 +72,19 @@
   <nav>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 align-self-center">
+        <div class="col-md-6 col-lg-4 align-self-center">
           <div class="logo-part">
             <ul class="list-unstyled">
               <li class="logo"><a href=""><img src="images/logo-1.png" alt="logo-1" width="105"></a></li>
               <li class="category-menu">
-                <i class="fa-brands fa-windows"></i> <span>Categories</span>
+                <i class="fa-brands fa-windows"></i> <span>Departments</span>
               </li>
-              <li class="product-menu">
+              <!-- <li class="product-menu">
                 <a href="">
                   <i class="fa-solid fa-chalkboard"></i>
                   <span>Products</span>
                 </a>
-              </li>
+              </li> -->
             </ul>
             <div class="mega-menu d-flex">
               <div class="left-menu">
@@ -140,7 +140,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 align-self-center">
+        <div class="col-md-6 col-lg-4 align-self-center">
           <div class="search-part">
             <form action="#">
               <div class="input-groups position-relative">
@@ -150,7 +150,7 @@
             </form>
           </div>
         </div>
-        <div class="col-lg-4 align-self-center">
+        <div class="col-md-12 col-lg-4 align-self-center">
           <div class="cart-part d-flex justify-content-between align-items-center">
             <div class="items">
               <a href="">Items <span>(0)</span></a>

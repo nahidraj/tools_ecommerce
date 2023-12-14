@@ -109,8 +109,9 @@ body {
 // common title part start
 .common_title{
   background-color: $primary;
-  border-radius: 30px;
-  @include font(16px, 700);
+  color: $white;
+  border-radius: 6px;
+  @include font(20px, 700);
   text-align: center;
   padding: 5px 0;
   margin-bottom: 14px;

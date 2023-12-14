@@ -12,7 +12,7 @@
 
           a {
             @include font(19px, 700);
-            color: $black;
+            color: $white;
             margin-right: 30px;
           }
         }
@@ -58,8 +58,8 @@
 
   .blog-top-items {
     .image {
-      height: 380px;
-      background-color: red;
+      // height: 380px;
+      // background-color: red;
 
       .overlay {
         bottom: 0;

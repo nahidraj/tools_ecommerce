@@ -15,7 +15,7 @@ header {
       line-height: 35px;
 
       a {
-        color: $black;
+        color: $white;
         @include font(15px, 700);
 
         i {
@@ -90,6 +90,7 @@ header {
     span {
       @include font(15px, 700);
       padding: 0 2px;
+      color: $white;
     }
 
     i {

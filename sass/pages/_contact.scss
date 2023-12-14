@@ -49,6 +49,7 @@
       text-align: center;
       button{
         background-color: $primary;
+        color: $white;
         @include font(22px, 600);
         padding: 12px 50px;
         border-radius: 5px;

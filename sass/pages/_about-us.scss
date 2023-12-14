@@ -40,6 +40,7 @@
         background-color: $primary;
         border-radius: 50px;
         margin-top: 24px;
+        color: $white;
         border: 0;
         @include font(22px, 600);
         transition: all 0.3s ease;

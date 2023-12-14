@@ -28,7 +28,7 @@ include("website-layout/header.php");
     </div>
   </div>
 </section>
-<!-- about us part end -->
+<!-- about us part end ch-->
 
 
 <?php

@@ -10,6 +10,7 @@
         th {
           background-color: $primary !important;
           @include font(20px, 600);
+          color: $white;
         }
       }
 
@@ -83,7 +84,7 @@
       background-color: $primary;
       padding: 12px 30px;
       border-radius: 50px;
-      color: $black;
+      color: $white;
       width: 180px;
       text-align: center;
       @include font(18px, 600);

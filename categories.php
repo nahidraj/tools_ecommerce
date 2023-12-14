@@ -12,8 +12,8 @@ include("website-layout/header.php");
 <section class="categories-page">
   <div class="container">
     <div class="all-categories mt-4">
-      <div class="row g-3">
-        <div class="col-lg-2">
+      <div class="row g-1">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -25,7 +25,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -38,7 +38,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -51,7 +51,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -64,7 +64,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -77,7 +77,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -90,7 +90,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -102,7 +102,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -115,7 +115,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -128,7 +128,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -141,7 +141,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -154,7 +154,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -176,12 +176,12 @@ include("website-layout/header.php");
           <h4 class="common_title">Featured Brands</h4>
         </div>
       </div>
-      <div class="row g-3">
+      <div class="row brands_slider g-1">
         <div class="col-lg-2">
           <div class="common_brand_widget">
             <a href="" class="d-block w-100">
               <div class="img">
-                <img src="images/brand-1.jpg" alt="brand-1" class="img-fluid w-100">
+                <img src="https://tools.com.bd/public/storage/brand/fluke-logopng.PNG" alt="brand-1" class="img-fluid w-100">
               </div>
             </a>
           </div>
@@ -190,7 +190,7 @@ include("website-layout/header.php");
           <div class="common_brand_widget">
             <a href="" class="d-block w-100">
               <div class="img">
-                <img src="images/brand-2.jpg" alt="brand-2" class="img-fluid w-100">
+                <img src="https://tools.com.bd/public/storage/brand/meggerpng.png" alt="brand-2" class="img-fluid w-100">
               </div>
             </a>
           </div>
@@ -199,7 +199,7 @@ include("website-layout/header.php");
           <div class="common_brand_widget">
             <a href="" class="d-block w-100">
               <div class="img">
-                <img src="images/brand-1.jpg" alt="brand-1" class="img-fluid w-100">
+                <img src="https://tools.com.bd/public/storage/brand/amprobepng.png" alt="brand-1" class="img-fluid w-100">
               </div>
             </a>
           </div>
@@ -208,7 +208,7 @@ include("website-layout/header.php");
           <div class="common_brand_widget">
             <a href="" class="d-block w-100">
               <div class="img">
-                <img src="images/brand-2.jpg" alt="brand-2" class="img-fluid w-100">
+                <img src="https://tools.com.bd/public/storage/brand/opal-rtpng.png" alt="brand-2" class="img-fluid w-100">
               </div>
             </a>
           </div>
@@ -217,7 +217,7 @@ include("website-layout/header.php");
           <div class="common_brand_widget">
             <a href="" class="d-block w-100">
               <div class="img">
-                <img src="images/brand-1.jpg" alt="brand-1" class="img-fluid w-100">
+                <img src="https://tools.com.bd/public/storage/brand/testo-brandpng.png" alt="brand-1" class="img-fluid w-100">
               </div>
             </a>
           </div>
@@ -226,61 +226,16 @@ include("website-layout/header.php");
           <div class="common_brand_widget">
             <a href="" class="d-block w-100">
               <div class="img">
-                <img src="images/brand-2.jpg" alt="brand-2" class="img-fluid w-100">
+                <img src="https://tools.com.bd/public/storage/brand/indelec-in-bdpng.png" alt="brand-2" class="img-fluid w-100">
               </div>
             </a>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="common_brand_widget">
-            <a href="" class="d-block w-100">
+            <a href="#" class="d-block w-100">
               <div class="img">
-                <img src="images/brand-1.jpg" alt="brand-1" class="img-fluid w-100">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="common_brand_widget">
-            <a href="" class="d-block w-100">
-              <div class="img">
-                <img src="images/brand-2.jpg" alt="brand-2" class="img-fluid w-100">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="common_brand_widget">
-            <a href="" class="d-block w-100">
-              <div class="img">
-                <img src="images/brand-1.jpg" alt="brand-1" class="img-fluid w-100">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="common_brand_widget">
-            <a href="" class="d-block w-100">
-              <div class="img">
-                <img src="images/brand-2.jpg" alt="brand-2" class="img-fluid w-100">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="common_brand_widget">
-            <a href="" class="d-block w-100">
-              <div class="img">
-                <img src="images/brand-1.jpg" alt="brand-1" class="img-fluid w-100">
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="common_brand_widget">
-            <a href="" class="d-block w-100">
-              <div class="img">
-                <img src="images/brand-2.jpg" alt="brand-2" class="img-fluid w-100">
+                <img src="https://tools.com.bd/public/storage/brand/amprobepng.png" alt="brand-1" class="img-fluid w-100">
               </div>
             </a>
           </div>
