@@ -4,11 +4,13 @@
 
 header {
   background-color: $primary;
-  z-index: 9999;
+  z-index: 999999;
   position: relative;
-.container{
-  max-width: 1500px;
-}
+
+  .container {
+    max-width: 1500px;
+  }
+
   ul {
     li {
       display: inline-block;
@@ -46,9 +48,8 @@ header {
 
     .menu_name {
       cursor: pointer;
-      &:hover{
-        
-      }
+
+      &:hover {}
     }
 
     .semi_dropdown_menu {
@@ -97,8 +98,9 @@ header {
       color: $white;
       font-size: 14px;
     }
-    &:hover{
-      .semi_dropdown_menu{
+
+    &:hover {
+      .semi_dropdown_menu {
         visibility: visible;
         opacity: 1;
         margin-top: 0;

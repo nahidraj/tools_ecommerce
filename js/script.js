@@ -109,4 +109,23 @@ $(function () {
     }
   });
 
+  $(".mobile_search_option").on("click", function(){
+    $(".search_overlay").toggleClass("navbar_overlay_active");
+    $(".search_main_content").toggleClass("navbar_main_active");
+  })
+  $(".search_overlay").on("click", function(){
+    $(".search_overlay").removeClass("navbar_overlay_active");
+    $(".navbar_main_active").removeClass("navbar_main_active");
+  })
+
+  // foote menu js
+  $(".mobile_category_menu").on("click", function(){
+    $(".category_overlay").addClass("overlay_active");
+    $(".main_menus").addClass("menu_active");
+  })
+  $(".category_overlay").on("click", function(){
+    $(".category_overlay").removeClass("overlay_active");
+    $(".main_menus").removeClass("menu_active");
+  })
+
 });

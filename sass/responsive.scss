@@ -21,13 +21,6 @@
     margin-left: 6px;
   }
 
-  nav .cart-part .carts a {
-    width: 30px;
-    height: 30px;
-    font-size: 14px;
-    line-height: 30px;
-  }
-
   .brands_slider .icon {
     top: 14px;
   }
@@ -78,6 +71,7 @@
 }
 
 @media (max-width:991.98px) {
+
   header .right_info li {
     padding-left: 18px;
   }
@@ -128,6 +122,22 @@
 
   .checkout_latest_page .billing_address {
     margin-top: 30px;
+  }
+
+  nav {
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    .cart-part {
+      width: 100%;
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+  }
+
+  .footer_btm {
+    padding-bottom: 78px;
   }
 }
 
@@ -392,5 +402,18 @@
 
   .merchate_registration .form_main .input_groups {
     margin-bottom: 10px;
+  }
+
+  .common_product_widget .text .product_action .get_quote {
+    font-size: 13px;
+  }
+
+  .common_product_widget .text .product_action {
+    padding: 0 6px;
+  }
+
+  .common_product_widget .text .product_action .wishlist,
+  .common_product_widget .text .product_action .cart {
+    font-size: 15px;
   }
 }

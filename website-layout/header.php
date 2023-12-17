@@ -20,7 +20,7 @@
 <body>
 
   <!-- header part start -->
-  <header>
+  <header class="d-none d-lg-block">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 col-12 col-sm">
@@ -72,11 +72,11 @@
   <nav>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-lg-4 align-self-center">
+        <div class="col-6 col-md-6 col-lg-4 align-self-center">
           <div class="logo-part">
             <ul class="list-unstyled">
               <li class="logo"><a href=""><img src="images/logo-1.png" alt="logo-1" width="105"></a></li>
-              <li class="category-menu">
+              <li class="category-menu d-none d-lg-inline-block">
                 <i class="fa-brands fa-windows"></i> <span>Departments</span>
               </li>
               <!-- <li class="product-menu">
@@ -140,7 +140,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 align-self-center">
+        <div class="col-md-6 col-lg-4 align-self-center d-none d-lg-block">
           <div class="search-part">
             <form action="#">
               <div class="input-groups position-relative">
@@ -150,20 +150,49 @@
             </form>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4 align-self-center">
-          <div class="cart-part d-flex justify-content-between align-items-center">
-            <div class="items">
+        <div class="col-6 col-md-6 col-lg-4 align-self-center">
+          <div class="cart-part d-flex justify-content-end justify-content-lg-between align-items-center">
+            <div class="items d-none d-lg-block">
               <a href="">Items <span>(0)</span></a>
               <a href="">BDT: <span>00.00</span></a>
             </div>
-            <div class="carts">
+            <div class="carts d-flex">
               <a href="" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
               <a href="" class="wishlist"><i class="fa-solid fa-heart"></i></a>
               <a href="" class="user"><i class="fa-solid fa-user"></i></a>
+              <button class="mobile_search_option d-block d-lg-none ms-2"><i class="fa-solid fa-bars"></i></button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </nav>
+  <div class="mobile_search_boxes d-block d-lg-none">
+    <div class="search_overlay"></div>
+    <div class="search_main_content">
+      <div class="search">
+        <form action="#">
+          <div class="input_groups position-relative">
+            <input type="text" placeholder="Search">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="menus">
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="fa-regular fa-heart"></i> Facebook Group</a></li>
+          <li><a href="#"><i class="fa-regular fa-heart"></i> B2B Deals</a></li>
+          <li><a href="#"><i class="fa-regular fa-heart"></i> Offer Deals</a></li>
+        </ul>
+      </div>
+      <div class="contacts">
+        <ul class="list-unstyled">
+          <li><a href=""><i class="fa-regular fa-circle-user"></i> Merchant</a></li>
+          <li><a href=""><i class="fa-solid fa-phone"></i> +8801965656380</a></li>
+          <li><a href=""><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+          <li><a href=""><i class="fa-regular fa-envelope"></i> Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <!-- navbar part end -->

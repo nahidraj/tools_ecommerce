@@ -73,7 +73,7 @@
           </div>
           <div class="col-lg-6 col-md-8 align-self-center">
             <div class="payment text-md-end mt-3 mt-md-0">
-              <img src="images/payment.png" alt="payment">
+              <img src="images/payment.png" alt="payment" class="img-fluid w-100">
             </div>
           </div>
         </div>
@@ -92,6 +92,38 @@
   </div>
 </section>
 <!-- footer part end -->
+<!-- mobile footer menu start -->
+<div class="mobile_footer_menu d-block d-lg-none">
+  <div class="container">
+    <ul class="list-unstyled">
+      <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Wishlist</a></li>
+      <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+      <li><button class="mobile_category_menu"><i class="fa-solid fa-bars"></i> Menu</button></li>
+    </ul>
+  </div>
+</div>
+<div class="mobile_category_menu_box">
+  <div class="category_overlay"></div>
+  <div class="main_menus">
+    <ul class="list-unstyled">
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+      <li><a href="#"><i class="fa-regular fa-heart"></i> Departments </a></li>
+    </ul>
+
+    <ul class="list-unstyled sign_in">
+      <li><a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i> Sign In </a></li>
+    </ul>
+  </div>
+</div>
+<!-- mobile footer menu end -->
 
 <!-- js file -->
 <script src="js/jquery-3.6.3.min.js"></script>

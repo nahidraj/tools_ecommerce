@@ -33,7 +33,7 @@ include("website-layout/header.php");
     <!-- all category -->
     <div class="common_widget_box_main_with_bg">
       <div class="row g-1">
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -45,7 +45,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -58,7 +58,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -71,7 +71,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -84,7 +84,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -97,7 +97,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -110,7 +110,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -122,7 +122,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -135,7 +135,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -148,7 +148,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -161,7 +161,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -174,7 +174,7 @@ include("website-layout/header.php");
             </a>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-6 col-lg-2 col-sm-4">
           <div class="common_category_widget text-center">
             <a href="" class="d-block w-100">
               <div class="icon">
@@ -286,7 +286,7 @@ include("website-layout/header.php");
     <!-- all brands -->
     <div class="common_widget_box_main_without_bg">
       <div class="row g-1">
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -314,7 +314,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -342,7 +342,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -370,7 +370,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -398,7 +398,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -426,7 +426,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -454,7 +454,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -482,7 +482,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -510,7 +510,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -538,7 +538,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -566,7 +566,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -594,7 +594,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -640,7 +640,7 @@ include("website-layout/header.php");
     <!-- all brands -->
     <div class="common_widget_box_main_without_bg">
       <div class="row g-1">
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -668,7 +668,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -696,7 +696,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -724,7 +724,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -752,7 +752,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
@@ -780,7 +780,7 @@ include("website-layout/header.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-xl-2 col-sm-6 col-md-4">
+        <div class="col-6 col-lg-3 col-xl-2 col-sm-6 col-md-4">
           <div class="common_product_widget">
             <span class="discount">10% Off</span>
             <div class="image">
