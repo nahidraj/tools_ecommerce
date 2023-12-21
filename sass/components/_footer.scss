@@ -243,5 +243,47 @@ footer {
 }
 
 .menu_active {
-  left:0 !important;
+  left: 0 !important;
+}
+
+.details__ {
+  margin-top: 30px;
+
+  .main_title {
+    @include font(30px, 700);
+    color: $primary;
+    margin-bottom: 15px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  p+p {
+    margin-top: 14px;
+  }
+
+  .read_more {
+    a {
+      color: $primary;
+      margin-top: 10px;
+      @include font(16px, 600);
+      text-decoration: underline;
+      transition: 0.3s;
+      &:hover{
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.contact_top_area{
+  margin-top: 30px;
+  .info_item{
+    .title{
+      @include font(26px, 700);
+      color: $primary;
+      margin: 15px 0 10px 0;
+    }
+  }
 }

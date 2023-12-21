@@ -814,6 +814,23 @@ include("website-layout/header.php");
   </div>
 </section>
 <!-- all products part end -->
+<!-- new added details area start -->
+<section class="details__">
+  <div class="container">
+    <div class="text text-center">
+      <h1 class="main_title">Exclusive Supplier</h1>
+      <div class="text-start">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum blanditiis debitis odit voluptates, modi facilis perferendis soluta doloribus aspernatur est ullam ab in consequuntur, repudiandae nostrum laudantium ipsam quam ducimus eum. Mollitia, quis, libero id eaque ad impedit quia cumque sapiente quas, explicabo odio quod nostrum vel culpa vero assumenda!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit autem recusandae pariatur temporibus quaerat eveniet optio ab neque quam, voluptatibus labore, illo omnis perspiciatis numquam repudiandae ratione rem delectus? Consequuntur beatae saepe laudantium quos neque illum, quod quas consectetur ipsam consequatur? Nisi excepturi expedita, nemo aliquam commodi aliquid dolorum accusantium ipsa enim sed dolore accusamus, adipisci quidem? Laboriosam obcaecati aliquid facere illum, saepe a dignissimos, doloremque, dicta sunt mollitia dolores in molestias eligendi unde blanditiis hic modi. Porro maxime, amet repellat deserunt magni voluptas asperiores nostrum totam perspiciatis ducimus obcaecati accusantium impedit aut quidem fuga sunt est hic similique praesentium!</p>
+        <div class="read_more">
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- new added details area end -->
+
 
 <?php
 include("website-layout/footer.php");

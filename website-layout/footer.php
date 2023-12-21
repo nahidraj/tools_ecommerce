@@ -1,3 +1,32 @@
+<!-- contact top area start -->
+<section class="contact_top_area">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4 col-md-6">
+        <div class="info_item text-center">
+          <img src="images/growth.png" alt="growth">
+          <h2 class="title">Sellers</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit accusamus vel asperiores illo laborum recusandae maxime qui ut facere dolor pariatur, molestiae tempora reiciendis!</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="info_item text-center">
+          <img src="images/growth.png" alt="growth">
+          <h2 class="title">Marketplace</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit accusamus vel asperiores illo laborum recusandae maxime qui ut facere dolor pariatur, molestiae tempora reiciendis!</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="info_item text-center">
+          <img src="images/growth.png" alt="growth">
+          <h2 class="title">Buyers</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit accusamus vel asperiores illo laborum recusandae maxime qui ut facere dolor pariatur, molestiae tempora reiciendis!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact top area end -->
 <!-- footer part start -->
 <footer>
   <div class="footer_bg">

@@ -903,6 +903,43 @@ footer .footer_bg .social_info .social a:nth-child(4) {
   left: 0 !important;
 }
 
+.details__ {
+  margin-top: 30px;
+}
+.details__ .main_title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 15px;
+}
+.details__ p {
+  text-align: justify;
+}
+.details__ p + p {
+  margin-top: 14px;
+}
+.details__ .read_more a {
+  color: #474747;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.details__ .read_more a:hover {
+  color: #FF5624;
+}
+
+.contact_top_area {
+  margin-top: 30px;
+}
+.contact_top_area .info_item .title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #474747;
+  margin: 15px 0 10px 0;
+}
+
 .bread-crumb {
   background-color: #121A1B;
   padding: 60px 0;
