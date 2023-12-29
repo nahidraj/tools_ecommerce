@@ -11,13 +11,13 @@ include("website-layout/header.php");
   <div class="dashboard_main_widget">
     <div class="row">
       <!-- this is dashboard sidebar menu -->
-      <div class="col-lg-2">
+      <div class="col-xl-3 col-xxl-2 col-lg-4">
         <?php
         include("dashboard-layout/sidebar.php")
         ?>
       </div>
       <!-- this is dashboard main content -->
-      <div class="col-lg-10">
+      <div class="col-xl-9 col-xxl-10 col-lg-8">
         <!-- this is dashboard content -->
         <div class="dashboard_main_content">
           <!-- statistics part -->
@@ -25,8 +25,8 @@ include("website-layout/header.php");
             <h4>Statistics</h4>
           </div>
           <div class="statistics_widget">
-            <div class="row">
-              <div class="col-lg-4">
+            <div class="row g-4">
+              <div class="col-lg-6 col-sm-6 col-xl-4">
                 <div class="statistics_widget_item">
                   <div class="icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -39,7 +39,7 @@ include("website-layout/header.php");
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-6 col-sm-6 col-xl-4">
                 <div class="statistics_widget_item">
                   <div class="icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -51,7 +51,7 @@ include("website-layout/header.php");
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-6 col-sm-6 col-xl-4">
                 <div class="statistics_widget_item">
                   <div class="icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -72,8 +72,8 @@ include("website-layout/header.php");
             <h4>Operation</h4>
           </div>
           <div class="operation_widget">
-            <div class="row">
-              <div class="col-lg-2">
+            <div class="row g-4">
+              <div class="col-lg-4 col-xl-3 col-xxl-2 col-sm-6">
                 <div class="operation_widget_item">
                   <div class="text-center icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -86,7 +86,7 @@ include("website-layout/header.php");
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2">
+              <div class="col-lg-4 col-xl-3 col-xxl-2 col-sm-6">
                 <div class="operation_widget_item">
                   <div class="text-center icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -99,7 +99,7 @@ include("website-layout/header.php");
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2">
+              <div class="col-lg-4 col-xl-3 col-xxl-2 col-sm-6">
                 <div class="operation_widget_item">
                   <div class="text-center icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -112,7 +112,7 @@ include("website-layout/header.php");
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2">
+              <div class="col-lg-4 col-xl-3 col-xxl-2 col-sm-6">
                 <div class="operation_widget_item">
                   <div class="text-center icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -125,7 +125,7 @@ include("website-layout/header.php");
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2">
+              <div class="col-lg-4 col-xl-3 col-xxl-2 col-sm-6">
                 <div class="operation_widget_item">
                   <div class="text-center icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -138,7 +138,7 @@ include("website-layout/header.php");
                   </div>
                 </div>
               </div>
-              <div class="col-lg-2">
+              <div class="col-lg-4 col-xl-3 col-xxl-2 col-sm-6">
                 <div class="operation_widget_item">
                   <div class="text-center icon d-flex justify-content-center align-items-center">
                     <div class="info">
@@ -158,19 +158,19 @@ include("website-layout/header.php");
           <div class="order_widget">
             <div class="order_widget_title">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col align-self-center">
                   <div class="order_title">
                     <h4>Order</h4>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col align-self-center">
                   <div class="view_all text-end">
                     <button class="view_all_btn">See All</button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="order_widget_table table-responsive">
+            <div class="order_widget_table table-responsive text-nowrap">
               <table class="table table-bordered table-striped">
                 <thead class="table-dark">
                   <tr>

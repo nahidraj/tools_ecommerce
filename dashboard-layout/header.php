@@ -7,12 +7,12 @@
         </a>
       </div>
     </div> -->
-    <div class="col-lg-8 align-self-center">
+    <div class="col-lg-8 col-md-8 align-self-center">
       <div class="dashboard_title text-start">
         <h3>Supper Admin Pannel!</h3>
       </div>
     </div>
-    <div class="col-lg-4 align-self-center">
+    <div class="col-lg-4 col-md-4 align-self-center">
       <div class="profile_widget">
         <div class="info_box">
           <div class="image_wrapper d-flex align-items-center">

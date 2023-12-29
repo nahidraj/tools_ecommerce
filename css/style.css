@@ -1889,6 +1889,14 @@ footer .footer_bg .social_info .social a:nth-child(4) {
   border-radius: 0 0.375em 0.375em 0;
 }
 
+.customer_panel_widget .customer_order_widget .tracking_form button {
+  color: #ffffff;
+}
+
+.customer_panel_widget .customer_profile .customer_profile_widget .save_btn button {
+  color: #ffffff;
+}
+
 .contact_form {
   padding: 100px 0px;
 }

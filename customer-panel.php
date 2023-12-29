@@ -7,7 +7,7 @@ include("website-layout/header.php");
   <div class="dashboard_main_widget">
     <div class="row">
       <!-- this is dashboard sidebar menu -->
-      <div class="col-lg-2">
+      <div class="col-xl-3 col-xxl-2 col-lg-4">
         <!-- this is dashboard left menu -->
         <div class="dashboard_left_menu">
           <ul class="list-unstyled">
@@ -23,17 +23,17 @@ include("website-layout/header.php");
         </div>
       </div>
       <!-- this is dashboard main content -->
-      <div class="col-lg-10">
+      <div class="col-xl-9 col-xxl-10 col-lg-8">
         <!-- this is dashboard topbar -->
         <div class="dashboard_top_header mb-4">
           <div class="row">
-            <div class="col-lg-4 align-self-center"></div>
-            <div class="col-lg-4 align-self-center">
-              <div class="dashboard_title text-center">
+            <!-- <div class="col-lg-4 align-self-center"></div> -->
+            <div class="col-lg-8 col-md-8 align-self-center">
+              <div class="dashboard_title text-start">
                 <h3>Welcome to Tools Bangladesh!</h3>
               </div>
             </div>
-            <div class="col-lg-4 align-self-center">
+            <div class="col-lg-4 col-md-4 align-self-center">
               <div class="profile_widget">
                 <div class="info_box">
                   <div class="image_wrapper d-flex align-items-center">
@@ -60,26 +60,26 @@ include("website-layout/header.php");
         <div class="customer_panel_widget">
           <!-- customer dashboard part start -->
           <div class="short_summery">
-            <div class="row">
-              <div class="col-lg-3">
+            <div class="row g-4">
+              <div class="col-xl-3 col-sm-6">
                 <div class="summery_item">
                   <h4>10</h4>
                   <p>Total Ordered</p>
                 </div>
               </div>
-              <div class="col-lg-3">
+              <div class="col-xl-3 col-sm-6">
                 <div class="summery_item">
                   <h4>10</h4>
                   <p>Total Delivered</p>
                 </div>
               </div>
-              <div class="col-lg-3">
+              <div class="col-xl-3 col-sm-6">
                 <div class="summery_item">
                   <h4>10</h4>
                   <p>Pending Order</p>
                 </div>
               </div>
-              <div class="col-lg-3">
+              <div class="col-xl-3 col-sm-6">
                 <div class="summery_item">
                   <h4>10</h4>
                   <p>Favourites</p>
@@ -99,7 +99,7 @@ include("website-layout/header.php");
             <div class="title">
               <h4>All Orders</h4>
             </div>
-            <div class="all_order_table_widget table-responsive mt-3">
+            <div class="all_order_table_widget table-responsive text-nowrap mt-3">
               <table class="table table-bordered table-striped">
                 <thead class="table-dark">
                   <tr>
@@ -189,56 +189,56 @@ include("website-layout/header.php");
             <div class="add_product_widget mt-3">
               <div class="add_product_form">
                 <form action="#">
-                  <div class="row gx-5">
-                    <div class="col-lg-12">
+                  <div class="row gx-lg-5">
+                    <div class="col-lg-12 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>Title </label>
                         <input type="text">
                       </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>URL </label>
                         <input type="text">
                       </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>Meta Title </label>
                         <input type="text">
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>Regular Price </label>
                         <input type="text">
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>Special Price </label>
                         <input type="text">
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>Discount</label>
                         <input type="text">
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>Brand</label>
                         <input type="text">
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>Category</label>
                         <input type="text">
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-6 col-md-4">
                       <div class="input_groups">
                         <label>Subcategory</label>
                         <input type="text">
@@ -246,7 +246,7 @@ include("website-layout/header.php");
                     </div>
                     <div class="col-lg-12 mt-3">
                       <div class="row gx-5">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4">
                           <div class="input_groups">
                             <div class="product_feature_image">
                               <div class="image">
@@ -261,7 +261,7 @@ include("website-layout/header.php");
                             </div>
                           </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 col-md-8">
                           <div class="row gx-5">
                             <div class="col-lg-4">
                               <div class="input_groups">
@@ -289,8 +289,8 @@ include("website-layout/header.php");
                               </div>
                             </div>
                             <div class="col-lg-12 mt-3">
-                              <div class="row">
-                                <div class="col-lg-3">
+                              <div class="row g-4">
+                                <div class="col-lg-3 col-md-6">
                                   <div class="input_groups">
                                     <div class="product_feature_image">
                                       <div class="image">
@@ -308,7 +308,7 @@ include("website-layout/header.php");
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 col-md-6">
                                   <div class="input_groups">
                                     <div class="product_feature_image">
                                       <div class="image">
@@ -326,7 +326,7 @@ include("website-layout/header.php");
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 col-md-6">
                                   <div class="input_groups">
                                     <div class="product_feature_image">
                                       <div class="image">
@@ -344,7 +344,7 @@ include("website-layout/header.php");
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 col-md-6">
                                   <div class="input_groups">
                                     <div class="product_feature_image">
                                       <div class="image">
@@ -396,8 +396,8 @@ include("website-layout/header.php");
               <h4>My Wishlist</h4>
             </div>
             <div class="customer_wishlist_widget mt-3">
-              <div class="row g-3">
-                <div class="col-lg-2">
+              <div class="row g-1">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -425,7 +425,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -453,7 +453,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -481,7 +481,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -509,7 +509,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -537,7 +537,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -565,7 +565,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -593,7 +593,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -621,7 +621,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -649,7 +649,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -677,7 +677,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -705,7 +705,7 @@ include("website-layout/header.php");
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-xxl-2 col-6 col-xl-3 col-lg-4 col-sm-6 col-md-4">
                   <div class="common_product_widget">
                     <span class="discount">10% Off</span>
                     <div class="image">
@@ -741,7 +741,7 @@ include("website-layout/header.php");
           <div class="customer_order_tracking mt-4">
             <div class="customer_order_widget">
               <div class="row">
-                <div class="col-lg-4 mx-auto">
+                <div class="col-lg-6 col-xl-4 mx-auto">
                   <div class="tracking_form text-center">
                     <h4>Track Your Order</h4>
                     <form action="#">
@@ -757,7 +757,7 @@ include("website-layout/header.php");
           </div>
 
           <!-- customer order tracking system part -->
-          <div class="customer_order_tracking_status">
+          <div class="customer_order_tracking_status table-responsive text-nowrap">
             <table class="table table-bordered table-striped">
               <thead class="table-dark">
                 <tr>
@@ -787,12 +787,12 @@ include("website-layout/header.php");
             </div>
             <div class="customer_profile_widget mt-3">
               <div class="row">
-                <div class="col-lg-2">
+                <div class="col-xl-2 col-lg-3 col-md-3">
                   <div class="profile_image">
                     <img src="images/pr.jpg" alt="profile" class="img-fluid">
                   </div>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-xl-10 col-lg-9 col-md-9">
                   <div class="profile_information">
                     <table class="table table-bordered">
                       <tbody>
@@ -840,12 +840,12 @@ include("website-layout/header.php");
                     <div class="password">
                       <h4>Change password</h4>
                       <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-sm-6 mb-3 mb-sm-0">
                           <div class="input-groups">
                             <input type="PASSWORD" placeholder="Password">
                           </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-sm-6">
                           <div class="input-groups">
                             <input type="PASSWORD" placeholder="Confirm Password">
                           </div>

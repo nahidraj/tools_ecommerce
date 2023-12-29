@@ -14,6 +14,18 @@
   .product-details-page .product-images .slick-dots {
     margin-top: 80px;
   }
+
+  .customer_login .form_main .form_box {
+    padding: 20px 77px 30px;
+  }
+
+  .customer_login .fotter_part .action_btn {
+    font-size: 16px;
+  }
+
+  .customer_panel_widget .short_summery .summery_item {
+    height: 100%;
+  }
 }
 
 @media (max-width:1199.98px) {
@@ -67,6 +79,16 @@
 
   .subcategories-item .img .overlay h4 {
     font-size: 20px;
+  }
+
+
+  .dashboard_main_content {
+    margin-top: 24px;
+  }
+
+  .dashboard_top_header .dashboard_title h3 {
+    font-size: 24px;
+    font-weight: 700;
   }
 }
 
@@ -138,6 +160,18 @@
 
   .footer_btm {
     padding-bottom: 78px;
+  }
+
+  .dashboard_main_content {
+    min-height: auto;
+  }
+
+  .dashboard_main_widget .dashboard_left_menu {
+    min-height: auto;
+  }
+
+  .order_table_widget {
+    padding: 0;
   }
 }
 
@@ -234,6 +268,42 @@
 
   .merchate_registration .form_main {
     padding: 20px 0px 30px;
+  }
+
+  .dashboard_top_header .dashboard_title h3 {
+    font-size: 24px;
+  }
+
+  .dashboard_top_header .profile_widget .info_box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .dashboard_top_header .profile_widget .text h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .dashboard {
+    padding: 20px;
+  }
+
+  .dashboard_top_header .dashboard_title h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .dashboard_main_content {
+    padding: 0;
+  }
+
+  .dashboard_main_content .order_widget {
+    padding: 12px 0px;
+  }
+
+  .customer_panel_widget .customer_profile .customer_profile_widget .profile_image {
+    margin-bottom: 20px;
   }
 }
 
